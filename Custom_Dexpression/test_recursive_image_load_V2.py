@@ -7,6 +7,7 @@ import re
 import os
 
 import tflearn
+from face_detect import cutFace
 
 
 #if print is 1 than for each loaded image stats are print
@@ -187,3 +188,54 @@ def load_CKP_data(datasetPath, printData = 0):
 	return [X_data,Y_data]
 
 # load_CKP_data(1)
+
+def load_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/personal/school/MaNaMA_AI/thesis/implementation/dexpression/github_1/DeXpression-master_chris/haarcascade.xml"
+ ):
+
+	data = load_CKP_data(datasetPath,printData)
+	images = data[0]
+
+	# cut faces from each images and resize (downsample) to input dimension
+	X_gray = []
+	X_test = []
+
+	# Create the haar cascade
+	faceCascade = cv2.CascadeClassifier(cascPath)
+
+	for i in range(0,len(images)):	   
+	    cut_img = cutFace(images[i],224,224,faceCascade)
+	    X_gray = np.append(X_gray,cut_img)
+
+	X_gray = X_gray.reshape([-1,224,224,1])
+	print(X_gray.shape)
+
+	# reformat the emotionlabels to create a vector of 7 zeros only one of these elements is set to 1 indicating the emotion label
+	labels = []
+
+	for lab in data[1]:
+	    inst = np.zeros(7)
+	    inst[lab-1] = 1
+	    #print (inst)
+	    labels = np.append(labels,inst)
+	    
+	print("size Y 2: " + repr(labels.shape))
+	    
+	labels = labels.reshape([-1,7])
+
+	print("size labels flatten: " + repr(len(labels)))
+	print("size labels shape: " + repr(labels.shape))
+	print("type labels: " + repr(type(labels)))
+
+	outputData = [X_gray,labels]
+
+	return outputData
+
+dataPath = 'G:/Documenten/personal/school/MaNaMA_AI/thesis/databases/wikipedia_list/cohn-Kanade/CK+'
+#data = load_formated_database(dataPath,0)
+
+def create_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/personal/school/MaNaMA_AI/thesis/implementation/dexpression/github_1/DeXpression-master_chris/haarcascade.xml"):
+	data = load_formated_data(datasetPath, printData, cascPath)
+	np.save('CKP_X.npy',data[0])
+	np.save('CKP_Y.npy',data[1])
+
+# create_formated_data(dataPath)
