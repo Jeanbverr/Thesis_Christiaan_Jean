@@ -32,13 +32,13 @@ def cutFace(img,width,height,casc):
 	)
 
 
-	print("image shape X " + repr(img.shape[1]))
-	print("image shape Y " + repr(img.shape[0]))
+	# print("image shape X " + repr(img.shape[1]))
+	# print("image shape Y " + repr(img.shape[0]))
 
-	# cv2.imshow("Faces found", img)
+	# # cv2.imshow("Faces found", img)
 
-	# cv2.waitKey(0)
-	print("Found {0} faces!".format(len(faces)))
+	# # cv2.waitKey(0)
+	# print("Found {0} faces!".format(len(faces)))
 
 	# Draw a rectangle around the faces
 	# 
@@ -63,8 +63,8 @@ def cutFace(img,width,height,casc):
 		
 		cut_image = cv2.resize(cut_image,(width,height), interpolation = cv2.INTER_AREA)
 
-	print("image type " + repr(cut_image.dtype))
-	print("image shape " + repr(cut_image.shape))
+	# print("image type " + repr(cut_image.dtype))
+	# print("image shape " + repr(cut_image.shape))
 
 	return cut_image
 

@@ -22,6 +22,8 @@ def load_CKP_data(datasetPath, printData = 0):
 	X_data = [] # list of input data = climax images of emotions
 	Y_data = [] # list of output data = emotion expressed in image
 
+	X_subID = [] # list with subject Id of each X_data element 
+
 	i = 0 #count of total amount of instances
 
 	#count per emotion
@@ -37,6 +39,7 @@ def load_CKP_data(datasetPath, printData = 0):
 	#subject counter
 	sub = 0
 	lastSub = 0
+	subjectID = 0
 
 	#count of dimensions
 	# dimMap = {'490x640x3': 0}
@@ -86,9 +89,10 @@ def load_CKP_data(datasetPath, printData = 0):
 		file.close()
 
 		#determine the subject
-		if fn[11:14] != lastSub :
+		subjectID = fn[11:14]
+		if subjectID != lastSub :
 			sub = sub + 1
-		lastSub = fn[11:14] 
+		lastSub = subjectID 
 
 		#determine the emotion of the image
 		if(emotionNr == 0):
@@ -121,6 +125,7 @@ def load_CKP_data(datasetPath, printData = 0):
 	# store image and emotion label in the X_data and Y_data lists
 		X_data.append(img)
 		Y_data.append(emotionNr)
+		X_subID.append(subjectID)
 
 		
 		i = i+1
@@ -185,7 +190,7 @@ def load_CKP_data(datasetPath, printData = 0):
 
 	os.chdir(curr_path)
 
-	return [X_data,Y_data]
+	return [X_data,Y_data,X_subID]
 
 # load_CKP_data(1)
 
@@ -193,6 +198,10 @@ def load_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/per
  ):
 
 	data = load_CKP_data(datasetPath,printData)
+	#data[0] = X images
+	#data[2] = Y emotion labels
+	#data[3] = subject Ids
+
 	images = data[0]
 
 	# cut faces from each images and resize (downsample) to input dimension
@@ -203,8 +212,11 @@ def load_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/per
 	faceCascade = cv2.CascadeClassifier(cascPath)
 
 	for i in range(0,len(images)):	   
-	    cut_img = cutFace(images[i],224,224,faceCascade)
-	    X_gray = np.append(X_gray,cut_img)
+		cut_img = cutFace(images[i],224,224,faceCascade)
+		X_gray = np.append(X_gray,cut_img)
+		if printData==1 :
+			cv2.imshow("example", cut_img.reshape((224,224)))
+			cv2.waitKey(0)
 
 	X_gray = X_gray.reshape([-1,224,224,1])
 	print(X_gray.shape)
@@ -226,7 +238,7 @@ def load_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/per
 	print("size labels shape: " + repr(labels.shape))
 	print("type labels: " + repr(type(labels)))
 
-	outputData = [X_gray,labels]
+	outputData = [X_gray,labels,data[2]]
 
 	return outputData
 
@@ -237,5 +249,6 @@ def create_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/p
 	data = load_formated_data(datasetPath, printData, cascPath)
 	np.save('CKP_X.npy',data[0])
 	np.save('CKP_Y.npy',data[1])
+	np.save('CKP_subjectIDs.npy',data[2])
 
-# create_formated_data(dataPath)
+#load_formated_data(dataPath)
