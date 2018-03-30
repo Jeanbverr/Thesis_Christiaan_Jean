@@ -1,0 +1,5 @@
+Important things that changed in the branch "UserNumber"
+
+- previously commented out LRN_1 layer is added again
+- test_recursive..V2 also generates subjectId's in seperatefile
+- my_dexpression file seperates a train and validation and test set from the data with no overlapping subjects.
