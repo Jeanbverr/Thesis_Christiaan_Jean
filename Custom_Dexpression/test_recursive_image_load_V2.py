@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 import scipy as sc
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from glob import glob 
 import re
 import os
@@ -21,7 +21,6 @@ def load_CKP_data(datasetPath, printData = 0):
 
 	X_data = [] # list of input data = climax images of emotions
 	Y_data = [] # list of output data = emotion expressed in image
-
 	X_subID = [] # list with subject Id of each X_data element 
 
 	i = 0 #count of total amount of instances
@@ -178,9 +177,12 @@ def load_CKP_data(datasetPath, printData = 0):
 	return [X_data,Y_data,X_subID]
 
 def load_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/personal/school/MaNaMA_AI/thesis/implementation/dexpression/github_1/DeXpression-master_chris/haarcascade.xml"
- ):
+ ,allData = False):
 
-	data = load_CKP_data(datasetPath,printData)
+	if(allData==False):
+		data = load_CKP_data(datasetPath,printData)
+	else:
+		data = load_all_annotated_CKP_data(datasetPath,printData)
 
 
 	images = data[0]
@@ -222,12 +224,18 @@ def load_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/per
 
 	return outputData
 
-
+#create .npy files with only the 
 def create_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/personal/school/MaNaMA_AI/thesis/implementation/dexpression/github_1/DeXpression-master_chris/haarcascade.xml"):
 	data = load_formated_data(datasetPath, printData, cascPath)
-	np.save('CKP_X.npy',data[0])
-	np.save('CKP_Y.npy',data[1])
-	np.save('CKP_subjectIDs.npy',data[2])
+	np.save('../data/CKP_X.npy',data[0])
+	np.save('../data/CKP_Y.npy',data[1])
+	np.save('../data/CKP_subjectIDs.npy',data[2])
+
+def create_all_CKP_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/personal/school/MaNaMA_AI/thesis/implementation/dexpression/github_1/DeXpression-master_chris/haarcascade.xml"):
+	data = load_formated_data(datasetPath, printData, cascPath, allData = True)
+	np.save('../data/CKP_X_all.npy',data[0])
+	np.save('../data/CKP_Y_all.npy',data[1])
+	np.save('../data/CKP_subjectIDs_all.npy',data[2])
 
 dataPath = 'G:/Documenten/personal/school/MaNaMA_AI/thesis/databases/wikipedia_list/cohn-Kanade/CK+'
 
@@ -243,59 +251,131 @@ dataPath = 'G:/Documenten/personal/school/MaNaMA_AI/thesis/databases/wikipedia_l
 # OUT:
 # parts = [X_parts, Y_parts, X_subID_parts] =>  list of Lists containing containing 'NrParts' amount of np.ndarrays
 def split_dataset(dataset, NrParts):
-	
-	X = dataset[0]
-	Y = dataset[1]
-	subjectIDs = dataset[2]
 
-	partSize = (np.floor(len((subjectIDs))/(NrParts+1))).astype('uint8')
-	print("partsize " , partSize)
+    X = dataset[0]
+    Y = dataset[1]
+    subjectIDs = dataset[2]
 
-
-	lastSubID = 0 #the ID of the subject of the last instance
-	partCount = 0 #The amount of instances in this part already
-	partID = 0    #keeps the number of the part that is being filled right now
-
-	X_array = np.asarray([])
-	Y_array = np.asarray([])
-	sub_array = np.asarray([])
-
-	X_parts = []
-	Y_parts = []
-	X_subID_parts = []  
-
-	#iterate through al the ID's if a part is full and the subjectID is different from the previous, fill the next part 
-	for i in range(0,len(subjectIDs)):
-
-	#     print("this part IDs top border ", partSize ," and partCount = ", partCount)
-		if((partCount >= partSize) & (lastSubID != subjectIDs[i])):
-
-			#fill the parts to the partslists
-			X_parts.append(X_array)
-			Y_parts.append(Y_array)
-			X_subID_parts.append(sub_array)
-
-			#refresh the temporary arrays
-			X_array = np.asarray([])
-			Y_array = np.asarray([])
-			sub_array = np.asarray([])
-			#reset counter & set next part to be filled
-			partCount = 0
-			partID = partID + 1
-
-		X_array = np.append(X_array ,X[i])
-		Y_array = np.append(Y_array ,Y[i])
-		sub_array = np.append(sub_array ,subjectIDs[i])  
+    partSize = (np.floor(len((subjectIDs))/(NrParts))).astype('uint8')
+    print("partsize " , partSize)
 
 
-		partCount = partCount +1
-		lastSubID = subjectIDs[i]
+    lastSubID = 0 #the ID of the subject of the last instance
+    partCount = 0 #The amount of instances in this part already
+    partCountList= [] #the amount of instaces per part in list format
+    partID = 0    #keeps the number of the part that is being filled right now
 
-	print('#parts in X_parts ',len(X_parts))
-	print('#parts in Y_parts ',len(Y_parts))
-	print('#parts in Y_subID_parts ',len(X_subID_parts))
+    X_array = np.asarray([])
+    Y_array = np.asarray([])
+    sub_array = np.asarray([])
 
-	return [X_parts,Y_parts,X_subID_parts]
+    X_parts = []
+    Y_parts = []
+    X_subID_parts = []  
+
+    print("amount of instances ",len(subjectIDs))
+    #iterate through al the ID's if a part is full and the subjectID is different from the previous, fill the next part 
+    for i in range(0,len(subjectIDs)):
+
+    #     print("this part IDs top border ", partSize ," and partCount = ", partCount)
+        if((partCount >= partSize) & (lastSubID != subjectIDs[i])):
+
+            print('part[',partID,'] has ',partCount, ' instances')
+            print('function is at instance ', i)
+            partCountList.append(partCount)
+            
+            #fill the parts to the partslists
+            X_parts.append(X_array)
+            Y_parts.append(Y_array)
+            X_subID_parts.append(sub_array)
+
+            #refresh the temporary arrays
+            X_array = np.asarray([])
+            Y_array = np.asarray([])
+            sub_array = np.asarray([])
+            #reset counter & set next part to be filled
+            partCount = 0
+            partID = partID + 1
+            
+        X_array = np.append(X_array ,X[i])
+        Y_array = np.append(Y_array ,Y[i])
+        sub_array = np.append(sub_array ,subjectIDs[i])  
+
+        partCount = partCount +1
+        lastSubID = subjectIDs[i]
+      
+    if(partCount > 1):
+        print('part[',partID,'] has ',partCount, ' instances')
+        print('function is at instance ', i)
+        partCountList.append(partCount)
+
+        #fill the parts to the parts lists
+        X_parts.append(X_array)
+        Y_parts.append(Y_array)
+        X_subID_parts.append(sub_array)
+
+    print('#parts in X_parts ',len(X_parts))
+    print('#parts in Y_parts ',len(Y_parts))
+    print('#parts in Y_subID_parts ',len(X_subID_parts))
+    print("Count per part ", partCountList)
+    print("There were ", len(subjectIDs), "instances, the parts contain ", sum(partCountList), "instances" )
+
+
+    return [X_parts,Y_parts,X_subID_parts]
+
+def split_subject_dataset(subjectIDs, NrParts):
+
+    partSize = (np.floor(len((subjectIDs))/(NrParts))).astype('uint8')
+    print("partsize " , partSize)
+
+    lastSubID = 0 #the ID of the subject of the last instance
+    partCount = 0 #The amount of instances in this part already
+    partCountList= [] #the amount of instaces per part in list format
+    partID = 0    #keeps the number of the part that is being filled right now
+
+    sub_array = np.asarray([])
+
+    X_subID_parts = []  
+
+    print("amount of instances ",len(subjectIDs))
+    #iterate through al the ID's if a part is full and the subjectID is different from the previous, fill the next part 
+    for i in range(0,len(subjectIDs)):
+
+    #     print("this part IDs top border ", partSize ," and partCount = ", partCount)
+        if((partCount >= partSize) & (lastSubID != subjectIDs[i])):
+
+            print('part[',partID,'] has ',partCount, ' instances')
+            print('function is at instance ', i)
+            partCountList.append(partCount)
+            
+            #fill the parts to the partslists
+            X_subID_parts.append(sub_array)
+
+            #refresh the temporary arrays
+            sub_array = np.asarray([])
+            #reset counter & set next part to be filled
+            partCount = 0
+            partID = partID + 1
+            
+        sub_array = np.append(sub_array ,subjectIDs[i])  
+
+        partCount = partCount +1
+        lastSubID = subjectIDs[i]
+      
+    if(partCount > 1):
+        print('part[',partID,'] has ',partCount, ' instances')
+        print('function is at instance ', i)
+        partCountList.append(partCount)
+
+        #fill the parts to the parts lists
+        X_subID_parts.append(sub_array)
+
+    print('#parts in Y_subID_parts ',len(X_subID_parts))
+    print("Count per part ", partCountList)
+    print("There were ", len(subjectIDs), "instances, the parts contain ", sum(partCountList), "instances" )
+
+
+    return X_subID_parts
 
 # divide the subjects from a database according to the division in selection
 # IN:
@@ -307,6 +387,17 @@ def divide_subjects(X_subID_parts,selection):
     select =  selection[0]
     select_val =  selection[1]
     select_test=  selection[2]
+
+    selected_partNr = len(select )+ len(select_val )+len(select_test )
+    print("number of X_subID_parts", len(X_subID_parts))
+    print("number of selected parts", selected_partNr)
+    if(len(X_subID_parts) < selected_partNr):
+    	print("there are LESS parts then there are selected parts")
+    elif(len(X_subID_parts) > selected_partNr):
+    	print("there are MORE parts then there are selected parts")
+    else :
+    	print("Equal parts and selected parts")
+
 
     subID = np.asarray([])
     subID_val = np.asarray([])
@@ -389,12 +480,15 @@ def load_all_annotated_CKP_data(datasetPath, printData = 0):
 	label_list = glob('./Emotion/*/*/*.txt')
 
 	X_data = [] # list of input data = climax images of emotions
-	tot_img_count = 0
 	Y_data = [] # list of output data = emotion expressed in image
-
 	X_subID = [] # list with subject Id of each X_data element 
 
-	i = 0 #count of total amount of instances
+	# each emotion clip has only a few relevant images that represent an emotion 
+	relevant_part = 0.33 # the "precentage" of the end of the clip that has relevant images for that emotion
+
+
+	i = 0 #count of total amount of instance
+	tot_img_count = 0 # Count of how many images there are loaded
 
 	#count per emotion
 	N = 0 # Neutral
@@ -418,14 +512,14 @@ def load_all_annotated_CKP_data(datasetPath, printData = 0):
 	# # image
 	# img = cv2.imread(str)
 
-
+	print("begin loading data")
 	#iterate through the list of label files, open corresponding images
 	for fn in label_list:
 
 		str = './cohn-kanade-images'+ fn[9:-29] + '*.png'
 		
 		# print(fn[9:-29])
-		print(str)
+		# print(str)
 
 		img_list = glob(str)
 
@@ -441,9 +535,11 @@ def load_all_annotated_CKP_data(datasetPath, printData = 0):
 			image = cv2.imread(url)
 			img.append(cv2.cvtColor(image, cv2.COLOR_BGR2GRAY))
 
-		print(len(img))
-		tot_img_count = tot_img_count + len(img)
-		print("tot_img_count ", tot_img_count)
+		# print(len(img))
+		relevant_amount = int(round(len(img)*relevant_part))
+		# print ("from ", len(img), "amount of images only ",relevant_amount, " is relevant")
+		tot_img_count = tot_img_count + relevant_amount 
+		# print("tot_img_count ", tot_img_count)
 
 		# cv2.imshow("Faces found", img)
 		# cv2.waitKey(0)
@@ -471,48 +567,49 @@ def load_all_annotated_CKP_data(datasetPath, printData = 0):
 		#determine the emotion of the image
 		if(emotionNr == 0):
 			emotion = 'Neutral'
-			N = N + 1
+			N = N + relevant_amount 
 		elif(emotionNr == 1):
 			emotion = 'Anger'
-			A = A + 1
+			A = A + relevant_amount 
 		elif(emotionNr == 2):
 			emotion = 'Contempt'
-			C = C + 1
+			C = C + relevant_amount 
 		elif(emotionNr == 3):
 			emotion = 'Disgust'
-			D = D + 1
+			D = D + relevant_amount 
 		elif(emotionNr == 4):
 			emotion = 'Fear '
-			F = F + 1
+			F = F + relevant_amount 
 		elif(emotionNr == 5):
 			emotion = 'Happy'
-			H = H + 1
+			H = H + relevant_amount 
 		elif(emotionNr == 6):
 			emotion = 'Saddness'
-			Sa = Sa + 1
+			Sa = Sa + relevant_amount 
 		else:
 			emotion = 'Surprise'
-			Su = Su + 1
+			Su = Su + relevant_amount 
 
 		
 
 	# store image and emotion label in the X_data and Y_data lists
-		X_data.append(img)
-		Y_data.append(emotionNr)
-		X_subID.append(subjectID)
-		print("X_data length ",len(X_data))
+		for j in img[(len(img)-relevant_amount) :len(img)]:
+			X_data.append(j)
+			Y_data.append(emotionNr)
+			X_subID.append(subjectID)
+
+		# print("X_data length ",len(X_data))
 		
-		i = i+1
+		i = i+relevant_amount
 		
-
-
-
+		if (sub%20 ==0):
+			print(sub,"subjects loaded")
 
 		if printData :
 			print("-------------------------------")
 
 			print(str) #./cohn-kanade-images/S506/002/S506_004_00000038.png
-
+			print("amount of image added " , len(img))
 			print("image type:   " + repr(type(img)))
 
 			print("---")
@@ -537,8 +634,10 @@ def load_all_annotated_CKP_data(datasetPath, printData = 0):
 	# print(repr(dimMap))
 
 	print("--------- last elements in lists ---------  ")
-	print("length X_data" + repr(len(X_data))) 
-	print("length Y_data" + repr(len(Y_data))) 
+	print("length X_data " + repr(len(X_data))) 
+	print("length Y_data " + repr(len(Y_data)))
+	print("length X_subID " + repr(len(X_subID))) 
+ 
 
 	# cv2.imshow('image',X_data[len(X_data)-1])
 	plt.figure('last image')
