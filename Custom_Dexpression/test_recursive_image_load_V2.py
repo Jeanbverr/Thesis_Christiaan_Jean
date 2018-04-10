@@ -139,6 +139,7 @@ def load_CKP_data(datasetPath, printData = 0):
 			print('image ' + repr(i) + " " + emotion)
 
 	#show stattistics
+
 	print("--------- Overal stattistics ---------  ")
 	print("amount of Subjects  : %d" % sub)
 	print("amount of Instances : %d" % i)
@@ -227,15 +228,15 @@ def load_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/per
 #create .npy files with only the 
 def create_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/personal/school/MaNaMA_AI/thesis/implementation/dexpression/github_1/DeXpression-master_chris/haarcascade.xml"):
 	data = load_formated_data(datasetPath, printData, cascPath)
-	np.save('../data/CKP_X.npy',data[0])
-	np.save('../data/CKP_Y.npy',data[1])
-	np.save('../data/CKP_subjectIDs.npy',data[2])
+	np.save('../data/CKP/X.npy',data[0])
+	np.save('../data/CKP/Y.npy',data[1])
+	np.save('../data/CKP/subjectIDs.npy',data[2])
 
 def create_all_CKP_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/personal/school/MaNaMA_AI/thesis/implementation/dexpression/github_1/DeXpression-master_chris/haarcascade.xml"):
 	data = load_formated_data(datasetPath, printData, cascPath, allData = True)
-	np.save('../data/CKP_X_all.npy',data[0])
-	np.save('../data/CKP_Y_all.npy',data[1])
-	np.save('../data/CKP_subjectIDs_all.npy',data[2])
+	np.save('../data/CKP_all/X.npy',data[0])
+	np.save('../data/CKP_all/Y.npy',data[1])
+	np.save('../data/CKP_all/subjectIDs.npy',data[2])
 
 dataPath = 'G:/Documenten/personal/school/MaNaMA_AI/thesis/databases/wikipedia_list/cohn-Kanade/CK+'
 
@@ -660,3 +661,55 @@ def load_all_annotated_CKP_data(datasetPath, printData = 0):
 
 datasetPath = 'G:/Documenten/personal/school/MaNaMA_AI/thesis/databases/wikipedia_list/cohn-Kanade/CK+'
 # load_all_annotated_CKP_data(datasetPath, printData = 0)
+
+# this function searched for CKP data X,Y and SubID in the absolute path if given
+# if absolute path is not given is will go down in the directories depth deep searching for the /data directory
+# IN:
+# 	depth = the amount of directories the function wil go down to look for the /data directory
+# 	absolute_path = the absolute path to the /data/ folder where the .npy example: C:\Documenten\data
+def load_npy_files(depth = 5,direc = "CKP",absolute_path=None):
+
+	w = "[WARNING]"
+	s = "[SUCCEED]"
+	f = "[FAILED]"
+
+	
+
+	if (absolute_path is not None):
+		full_path = absolute_path +'/'+ direc 
+		# Load data from: https://drive.google.com/drive/folders/1YWT8DJivNOZzQRPCiHDPY0LL_dymdQIS?usp=sharing
+		#if not in working directory look in appointed directory
+		try:
+			X_data = np.load(full_path +  '/X.npy')
+			Y_data = np.load(full_path + '/Y.npy')
+			X_subID = (np.load(full_path + '/subjectIds.npy').astype('uint8'))
+			print(s + " data found in absolute_path: ", full_path)
+
+			return [X_data, Y_data, X_subID]
+		except Exception as e:
+			print(w + 'could not load from absolute_path: %s' , 'because of: %s'%e, 'error')
+
+	path = "./data/"+ direc 
+
+	for i in range(0,depth):
+		try:
+
+			X_data = np.load(path + '/X.npy')
+			Y_data = np.load(path + '/Y.npy')
+			X_subID = (np.load(path + '/subjectIds.npy')).astype('uint8')
+			print(s + "data found in path: ", path )
+
+			return [X_data, Y_data, X_subID]
+		except Exception as e:
+			print(w + ' could not load from path: %s' %path,'\n because of: %s' %e, 'error')
+		
+		path = './.' + path
+
+	print(f + "After searching 5 layer of directories data is still not found")
+
+
+	return None
+
+# if __name__=='__main__':
+# 	load_npy_CKP_files()
+

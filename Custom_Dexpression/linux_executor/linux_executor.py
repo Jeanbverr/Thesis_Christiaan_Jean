@@ -95,6 +95,7 @@ print("Type of data[0] ",  type(data[0]))
 showInfo(X_data,"X_data")
 showInfo(Y_data,"Y_data")
 showInfo(X_subID ,"X_subID")
+print("-----DONE DEBUG---------")
 
 #load the subject distribution over the different datasets
 subID = (np.load('data_division/train_subject_ID.npy')).astype('uint8')
@@ -111,6 +112,7 @@ print("Type of subIDs[0] ",  type(subIDs[0]))
 showInfo(subID,"subID")
 showInfo(subID_val,"subID_val")
 showInfo(subID_test ,"subID_test")
+print("-----DONE DEBUG---------")
 
 
 train_dexpression_model(RUNID,data,subIDs,tf_checkpoints,cascPath,dropout_keep_prob=0.5)
