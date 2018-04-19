@@ -8,6 +8,8 @@ import os
 
 import tflearn
 from face_detect import cutFace
+from showNumpyInfo import showInfo
+
 
 
 #if print is 1 than for each loaded image stats are print
@@ -24,6 +26,7 @@ def load_CKP_data(datasetPath, printData = 0):
 	X_subID = [] # list with subject Id of each X_data element 
 
 	i = 0 #count of total amount of instances
+
 
 	#count per emotion
 	N = 0 # Neutral
@@ -458,6 +461,85 @@ def divide_data_to_subject(data,subIDs):
 #             print(j[0])
             X_test = np.append(X_test,X_data[j[0]])
             Y_test = np.append(Y_test,Y_data[j[0]])
+            
+    X = (X.reshape(-1,224,224,1)).astype('uint8')
+    Y = (Y.reshape(-1,7)).astype('uint8')
+
+    # create the validation set X_val and Y-val (SubID_val is not given to the network)
+    X_val = X_val.reshape(-1,224,224,1).astype('uint8')
+    Y_val = Y_val.reshape(-1,7).astype('uint8')
+
+    # create the test set X_test and Y_test (SubID_test is not given to the network)
+    X_test = X_test.reshape(-1,224,224,1).astype('uint8')
+    Y_test = Y_test.reshape(-1,7).astype('uint8')
+
+    return [X,Y,X_val,Y_val,X_test,Y_test]
+
+# A more efficient version of the above
+# divides the data in training, validation and test sets according to lists of the subjectIDs already divided over the 3
+# IN:
+# data = contain 3 1D-arrays: x,y and subject data [X_data, Y_data,X_subID]
+# subIDs = contain 3 1D-arrays with the subject numbers for each set: train,val,test [subID subID_val subID_test]
+# OUT:
+# list of 6 arrays [X,Y,X_val,Y_val,X_test,Y_test]
+def opti_divide_data_to_subject(data,subIDs):
+    X_data = data[0]
+    Y_data = data[1]
+    X_subID = data[2]
+    
+    subID     = np.unique(subIDs[0])
+    subID_val = np.unique(subIDs[1])
+    subID_test= np.unique(subIDs[2])
+    
+    X = np.zeros((subIDs[0].shape[0]+10,224,224,1))
+    Y = np.zeros((subIDs[0].shape[0]+10,7))
+    X_val = np.zeros((subIDs[1].shape[0]+10,224,224,1))
+    Y_val = np.zeros((subIDs[1].shape[0]+10,7))
+    X_test = np.zeros((subIDs[2].shape[0]+10,224,224,1))
+    Y_test = np.zeros((subIDs[2].shape[0]+10,7))
+
+    index = 0
+    index_val = 0
+    index_test = 0
+
+    showInfo(subID)
+    showInfo(subID_val)
+    showInfo(subID_test)
+#     extract images and labels belonging to the trainings list of subject IDs in subID
+    cumul = 0
+    count = 0
+    for i in subID :
+        count = count + 1
+        print("subID count", count)
+        print("subID ", i)
+        same =np.argwhere(X_subID==i)
+        print("same ",same)
+        print("same ",same.shape[0])
+        cumul = cumul + same.shape[0]
+        print("same cumul",cumul)
+        for j in same:
+            print(j[0])
+            X[index] = X_data[j[0]]
+            Y[index] = Y_data[j[0]]
+            index =  index + 1
+    print("index is ", index)
+
+#     extract images and labels belonging to the validation list of subject IDs in subID_val            
+    for i in subID_val :
+        for j in np.argwhere(X_subID==i):
+#             print(j[0])
+            X_val[index_val]  = X_data[j[0]]
+            Y_val[index_val]  = Y_data[j[0]]
+            index_val =  index_val + 1
+    print ("index_val is ", index_val)
+ #     extract images and labels belonging to the test list of subject IDs in subID_test           
+    for i in subID_test :
+        for j in np.argwhere(X_subID==i):
+#             print(j[0])
+            X_test[index_test]  = X_data[j[0]]
+            Y_test[index_test]  = Y_data[j[0]]
+            index_test =  index_test + 1
+    print("index_test is ", index_test)
             
     X = (X.reshape(-1,224,224,1)).astype('uint8')
     Y = (Y.reshape(-1,7)).astype('uint8')
