@@ -37,6 +37,7 @@ import tensorflow as tf
 
 from test_recursive_image_load_V2 import load_CKP_data
 from test_recursive_image_load_V2 import load_formated_data
+from test_recursive_image_load_V2 import load_npy_files
 from showNumpyInfo import showInfo
 from my_Dexpression_function import train_dexpression_model
 
@@ -76,16 +77,19 @@ dropout_keep_prob=0.5
 
 # Load data from: https://drive.google.com/drive/folders/1YWT8DJivNOZzQRPCiHDPY0LL_dymdQIS?usp=sharing
 #if not in working directory look in alternative directory
-try:
-    X_data = np.load('CKP_X.npy')
-    Y_data = np.load('CKP_Y.npy')
-    X_subID = (np.load('CKP_subjectIds.npy')).astype('uint8')
-except:
-    X_data = np.load('../data/CKP_X.npy')
-    Y_data = np.load('../data/CKP_Y.npy')
-    X_subID = (np.load('../data/CKP_subjectIds.npy')).astype('uint8')
+# try:
+#     X_data = np.load('CKP_X.npy')
+#     Y_data = np.load('CKP_Y.npy')
+#     X_subID = (np.load('CKP_subjectIds.npy')).astype('uint8')
+# except:
+#     X_data = np.load('../data/CKP_X.npy')
+#     Y_data = np.load('../data/CKP_Y.npy')
+#     X_subID = (np.load('../data/CKP_subjectIds.npy')).astype('uint8')
 
-data = [X_data, Y_data, X_subID]  
+dire = 'CKP_all_neutral'
+
+data = load_npy_files(5,dire)
+[X_data, Y_data, X_subID]  = data
 
 print("CHECK data type and shape")
 
@@ -98,9 +102,9 @@ showInfo(X_subID ,"X_subID")
 print("-----DONE DEBUG---------")
 
 #load the subject distribution over the different datasets
-subID = (np.load('data_division/train_subject_ID.npy')).astype('uint8')
-subID_val = (np.load('data_division/validation_subject_ID.npy')).astype('uint8')
-subID_test = (np.load('data_division/test_subject_ID.npy')).astype('uint8')
+subID = (np.load('data_division/'+ dire + '/train_subject_ID.npy')).astype('uint8')
+subID_val = (np.load('data_division/'+ dire + '/validation_subject_ID.npy')).astype('uint8')
+subID_test = (np.load('data_division/'+ dire + '/test_subject_ID.npy')).astype('uint8')
 subIDs = [subID, subID_val, subID_test]
 
 print("CHECK subID type and shape")
