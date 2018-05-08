@@ -1,0 +1,47 @@
+---------------MUG data information --------------------------
+
+-------OLD data formating---------------
+amount of images:	17074
+total uncut size:	13582 MB
+
+--------- Overal stattistics ---------  
+amount of Subjects  : 1
+amount of Instances : 17074
+code = 0 = Neutral    346 instances: 2.03
+code = 1 = Anger      3114 instances: 18.24
+code = 2 = Contempt   0 instances: 0.00
+code = 3 = Disgust    2622 instances: 15.36
+code = 4 = Fear       2322 instances: 13.60
+code = 5 = Happy      3038 instances: 17.79
+code = 6 = Saddness   2646 instances: 15.50
+code = 7 = Surprise   2956 instances: 17.31
+--------- dimensions ---------  
+--------- last elements in lists ---------  
+length X_data17074
+length Y_data17074
+
+cutting 500 images = 13827 MB
+
+
+----TAKING only 1/16 of the images from each emotion and 1/8 of each neutral-----
+
+amount of images: 9008
+total uncut size: should be 7165
+
+
+--------- Overal stattistics ---------  
+amount of Subjects  : 51
+amount of Instances : 9008
+code = 0 = Neutral    392 instances: 4.35
+code = 1 = Anger      1590 instances: 17.65
+code = 2 = Contempt   0 instances: 0.00
+code = 3 = Disgust    1354 instances: 15.03
+code = 4 = Fear       1200 instances: 13.32
+code = 5 = Happy      1564 instances: 17.36
+code = 6 = Saddness   1362 instances: 15.12
+code = 7 = Surprise   1388 instances: 15.41
+--------- dimensions ---------  
+--------- last elements in lists ---------  
+length X_data0
+length Y_data9008
+length Y_data 7
