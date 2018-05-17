@@ -127,15 +127,16 @@ def create_Dexpression_GAP_network(dropout_keep_prob = 0.5):
                          learning_rate=0.0001)
     return network
 
-def create_Dexpression_FX2_out_layer():
+
+def create_original_Dexpression_network(dropout_keep_prob = 0.5, dropoutEnabled = True):
     # Give a dropout if required (change to True and define the dropout percentage).
-    dropout = False
+    
 
     # Define number of output classes.
     num_classes = 7
 
     # Define padding scheme.
-    padding = 'VALID'
+    padding = 'SAME'   #CHANGED from VALID to SAME
 
     # Model Architecture
     network = input_data(shape=[None, 224, 224, 1])
@@ -148,19 +149,21 @@ def create_Dexpression_FX2_out_layer():
     conv_2b = relu(conv_2d(conv_2a, 208, 3, strides=1, padding=padding, name='Conv_2b_FX1'))
     conv_2c = relu(conv_2d(maxpool_2a, 64, 1, strides=1, padding=padding, name='Conv_2c_FX1'))
     FX1_out = merge([conv_2b, conv_2c], mode='concat', axis=3, name='FX1_out')
+    maxpool_2b = max_pool_2d(FX1_out, 3, strides=2, padding=padding, name='maxpool_2b_FX1') # ADDED a pooling layer with 3x3 and stride 2
     # FeatEX-2
-    conv_3a = relu(conv_2d(FX1_out, 96, 1, strides=1, padding=padding, name='Conv_3a_FX2'))
-    maxpool_3a = max_pool_2d(FX1_out, 3, strides=1, padding=padding, name='MaxPool_3a_FX2')
+    conv_3a = relu(conv_2d(maxpool_2b, 96, 1, strides=1, padding=padding, name='Conv_3a_FX2'))
+    maxpool_3a = max_pool_2d(maxpool_2b, 3, strides=1, padding=padding, name='MaxPool_3a_FX2')
     conv_3b = relu(conv_2d(conv_3a, 208, 3, strides=1, padding=padding, name='Conv_3b_FX2'))
     conv_3c = relu(conv_2d(maxpool_3a, 64, 1, strides=1, padding=padding, name='Conv_3c_FX2'))
     FX2_out = merge([conv_3b, conv_3c], mode='concat', axis=3, name='FX2_out')
-    # net = flatten(FX2_out)
-    # if dropout:
-    #     net = dropout(net, dropout_keep_prob)
-    # loss = fully_connected(net, num_classes,activation='softmax')
+    maxpool_3b = max_pool_2d(FX2_out, 3, strides=2, padding=padding, name='MaxPool_3b_FX2')# ADDED a pooling layer with 3x3 and stride 2
+    net = flatten(maxpool_3b)
+    if dropoutEnabled:
+        net = dropout(net, dropout_keep_prob)
+    loss = fully_connected(net, num_classes,activation='softmax')
 
-    # # Compile the model and define the hyperparameters
-    # network = tflearn.regression(loss, optimizer='Adam',
-    #                      loss='categorical_crossentropy',
-    #                      learning_rate=0.0001)
-    return FX2_out
+    # Compile the model and define the hyperparameters
+    network = tflearn.regression(loss, optimizer='Adam',
+                         loss='categorical_crossentropy',
+                         learning_rate=0.0001)
+    return network

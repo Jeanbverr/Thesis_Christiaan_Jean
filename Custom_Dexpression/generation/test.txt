@@ -1,0 +1,50 @@
+2018-04-25 17:25:32,175 INFO     start logging to test.txt
+2018-04-25 17:25:44,407 INFO     start logging to test.txt
+2018-04-25 17:25:44,408 INFO      oke testing logprint
+2018-04-25 17:25:44,410 INFO      normal string with repre1
+2018-04-25 17:25:44,410 INFO      special string only compatible with print  1
+2018-04-25 17:27:32,136 INFO     start logging to test.txt
+2018-04-25 17:27:32,137 INFO      oke testing logprint
+2018-04-25 17:27:32,139 INFO      normal string with repr1
+2018-04-25 17:27:32,140 INFO      special string only compatible with print  1
+2018-04-25 17:27:32,142 INFO      longer special string only compatible with print  1 another 5.0 and another !! 90
+2018-04-25 19:49:10,154 INFO     start logging to test.txt
+2018-04-25 19:49:10,156 INFO      oke testing logprint
+2018-04-25 19:49:10,156 INFO      normal string with repr1
+2018-04-25 19:49:10,157 INFO      special string only compatible with print  1
+2018-04-25 19:49:10,158 INFO      longer special string only compatible with print  1 another 5.0 and another !! 90
+2018-04-25 19:49:52,208 INFO     start logging to test.txt
+2018-04-25 19:49:52,209 INFO      oke testing logprint
+2018-04-25 19:49:52,210 INFO      normal string with repr1
+2018-04-25 19:49:52,211 INFO      special string only compatible with print  1
+2018-04-25 19:49:52,212 INFO      longer special string only compatible with print  1 another 5.0 and another !! 90
+2018-04-25 19:50:28,413 INFO     start logging to test.txt
+2018-04-25 19:50:28,414 INFO      oke testing logprint
+2018-04-25 19:50:28,414 INFO      normal string with repr1
+2018-04-25 19:50:28,415 INFO      special string only compatible with print  1
+2018-04-25 19:50:28,416 INFO      longer special string only compatible with print  1 another 5.0 and another !! 90
+2018-04-25 19:54:45,674 INFO     start logging to test.txt
+2018-04-25 19:54:45,676 INFO      oke testing logprint
+2018-04-25 19:54:45,677 INFO      normal string with repr1
+2018-04-25 19:54:45,677 INFO      special string only compatible with print  1
+2018-04-25 19:54:45,678 INFO      longer special string only compatible with print  1 another 5.0 and another !! 90
+2018-04-26 20:08:21,176 INFO     start logging to test.txt
+2018-04-26 20:08:21,197 INFO      oke testing logprint
+2018-04-26 20:08:21,198 INFO      normal string with repr1
+2018-04-26 20:08:21,198 INFO      special string only compatible with print  1
+2018-04-26 20:08:21,199 INFO      longer special string only compatible with print  1 another 5.0 and another !! 90
+2018-04-26 20:09:31,799 INFO     start logging to test.txt
+2018-04-26 20:09:31,800 INFO      oke testing logprint
+2018-04-26 20:09:31,801 INFO      normal string with repr1
+2018-04-26 20:09:31,802 INFO      special string only compatible with print  1
+2018-04-26 20:09:31,802 INFO      longer special string only compatible with print  1 another 5.0 and another !! 90
+2018-04-26 20:19:36,505 INFO     start logging to test.txt
+2018-04-26 20:19:36,507 INFO      oke testing logprint
+2018-04-26 20:19:36,509 INFO      normal string with repr1
+2018-04-26 20:19:36,511 INFO      special string only compatible with print  1
+2018-04-26 20:19:36,513 INFO      longer special string only compatible with print  1 another 5.0 and another !! 90
+2018-04-26 20:43:04,187 INFO     start logging to test.txt
+2018-04-26 20:43:04,188 INFO      oke testing logprint
+2018-04-26 20:43:04,189 INFO      normal string with repr1
+2018-04-26 20:43:04,190 INFO      special string only compatible with print  1
+2018-04-26 20:43:04,190 INFO      longer special string only compatible with print  1 another 5.0 and another !! 90

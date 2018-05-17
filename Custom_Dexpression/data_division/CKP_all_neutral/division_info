@@ -1,0 +1,40 @@
+2018-04-25 16:13:23,498 INFO     start logging to ../data_division/CKP_all_neutral/division_info.txt
+2018-04-25 16:29:15,062 INFO     start logging to ../data_division/CKP_all_neutral/division_info.txt
+2018-04-25 16:29:32,353 INFO     start logging to ../data_division/CKP_all_neutral/division_info
+2018-04-25 16:34:15,028 INFO     start logging to ../data_division/CKP_all_neutral/division_info.txt
+2018-04-25 16:34:30,595 INFO     start logging to ../data_division/CKP_all_neutral/division_info
+2018-04-25 16:34:30,596 INFO     DEBUG div 280.8 floor 280.0 partSize 280.0
+2018-04-25 16:34:30,597 INFO     subjectIDs length 2808 divide by 10 gives a partsize  280.0
+2018-04-25 16:34:30,598 INFO     amount of instances 2808
+2018-04-25 16:34:30,607 INFO     part[0] has 289 instances
+2018-04-25 16:34:30,608 INFO     function is at instance 289
+2018-04-25 16:34:30,618 INFO     part[1] has 282 instances
+2018-04-25 16:34:30,619 INFO     function is at instance 571
+2018-04-25 16:34:30,631 INFO     part[2] has 284 instances
+2018-04-25 16:34:30,632 INFO     function is at instance 855
+2018-04-25 16:34:30,642 INFO     part[3] has 292 instances
+2018-04-25 16:34:30,643 INFO     function is at instance 1147
+2018-04-25 16:34:30,654 INFO     part[4] has 303 instances
+2018-04-25 16:34:30,655 INFO     function is at instance 1450
+2018-04-25 16:34:30,663 INFO     part[5] has 281 instances
+2018-04-25 16:34:30,664 INFO     function is at instance 1731
+2018-04-25 16:34:30,674 INFO     part[6] has 299 instances
+2018-04-25 16:34:30,674 INFO     function is at instance 2030
+2018-04-25 16:34:30,683 INFO     part[7] has 281 instances
+2018-04-25 16:34:30,684 INFO     function is at instance 2311
+2018-04-25 16:34:30,695 INFO     part[8] has 318 instances
+2018-04-25 16:34:30,696 INFO     function is at instance 2629
+2018-04-25 16:34:30,703 INFO     part[9] has 179 instances
+2018-04-25 16:34:30,704 INFO     function is at instance 2807
+2018-04-25 16:34:30,705 INFO     #parts in Y_subID_parts 10
+2018-04-25 16:34:30,705 INFO     Count per part [289, 282, 284, 292, 303, 281, 299, 281, 318, 179]
+2018-04-25 16:34:30,706 INFO     There were 2808instances, the parts contain 2808instances
+2018-04-25 16:34:30,707 INFO     hello
+2018-04-25 16:34:30,708 INFO     number of X_subID_parts10
+2018-04-25 16:34:30,708 INFO     number of selected parts10
+2018-04-25 16:34:30,709 INFO     Equal parts and selected parts
+2018-04-25 16:34:30,711 INFO     there are 10 parts
+2018-04-25 16:34:30,712 INFO     the training set contains 6 of those parts which is 60.0%
+2018-04-25 16:34:30,713 INFO     the validation set contains 3 of those parts which is 30.0%
+2018-04-25 16:34:30,713 INFO     the test set contains 1 of those parts which is 10.0%
+2018-04-25 16:34:30,722 INFO     generated division files in ../data_division/CKP_all_neutral

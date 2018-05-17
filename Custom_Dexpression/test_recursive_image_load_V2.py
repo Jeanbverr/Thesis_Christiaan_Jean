@@ -186,6 +186,8 @@ def load_CKP_data(datasetPath, printData = 0):
 
 
 
+
+
 def load_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/personal/school/MaNaMA_AI/thesis/implementation/dexpression/github_1/DeXpression-master_chris/haarcascade.xml"
  ,allData = False,neutral = False):
 
@@ -218,7 +220,7 @@ def load_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/per
 	npy.save(stre,data[start:])
 
 	mem_usage = memory_usage(-1, interval=.2, timeout=1)
-	str = 'Maximum memory usage before data = null: ' + repr( mem_usage)
+	str = 'Maximum memory ' + repr( mem_usage)
 	logprint(str)
 
 	data = None;
@@ -297,9 +299,9 @@ def create_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/p
 		os.makedirs('../data/CKP')
 		print("made new directory: " + ' ../data/CKP')
 
-	np.save('../data/CKP/X.npy',data[0])
-	np.save('../data/CKP/Y.npy',data[1])
-	np.save('../data/CKP/subjectIDs.npy',data[2])
+	np.save('../data/CKP/X.npy',data[0].astype('uint8'))
+	np.save('../data/CKP/Y.npy',data[1].astype('uint8'))
+	np.save('../data/CKP/subjectIDs.npy',data[2].astype('uint8'))
 
 def create_all_CKP_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/personal/school/MaNaMA_AI/thesis/implementation/dexpression/github_1/DeXpression-master_chris/haarcascade.xml"):
 	data = load_formated_data(datasetPath, printData, cascPath, allData = True)
@@ -308,9 +310,9 @@ def create_all_CKP_formated_data(datasetPath, printData = 0, cascPath = "G:/Docu
 		os.makedirs('../data/CKP_all')
 		print("made new directory: " + ' ../data/CKP_all')
 
-	np.save('../data/CKP_all/X.npy',data[0])
-	np.save('../data/CKP_all/Y.npy',data[1])
-	np.save('../data/CKP_all/subjectIDs.npy',data[2])
+	np.save('../data/CKP_all/X.npy',data[0].astype('uint8'))
+	np.save('../data/CKP_all/Y.npy',data[1].astype('uint8'))
+	np.save('../data/CKP_all/subjectIDs.npy',data[2].astype('uint8'))
 
 def create_all_CKP_formated_data_neutral(datasetPath, printData = 0, cascPath = "G:/Documenten/personal/school/MaNaMA_AI/thesis/implementation/dexpression/github_1/DeXpression-master_chris/haarcascade.xml"):
 	data = load_formated_data(datasetPath, printData, cascPath, neutral = True)
@@ -319,9 +321,22 @@ def create_all_CKP_formated_data_neutral(datasetPath, printData = 0, cascPath = 
 		os.makedirs('../data/CKP_all_neutral')
 		print("made new directory: " + ' ../data/CKP_all_neutral')
 
-	np.save('../data/CKP_all_neutral/X.npy',data[0])
-	np.save('../data/CKP_all_neutral/Y.npy',data[1])
-	np.save('../data/CKP_all_neutral/subjectIDs.npy',data[2])
+	np.save('../data/CKP_all_neutral/X.npy',data[0].astype('uint8'))
+	np.save('../data/CKP_all_neutral/Y.npy',data[1].astype('uint8'))
+	np.save('../data/CKP_all_neutral/subjectIDs.npy',data[2].astype('uint8'))
+
+def create_complete_CKP_formated_data(datasetPath, printData = 0, cascPath = "G:/Documenten/personal/school/MaNaMA_AI/thesis/implementation/dexpression/github_1/DeXpression-master_chris/haarcascade.xml"):
+	data = load_formated_data(datasetPath, printData, cascPath, neutral = True)
+
+	path = "../data/CKP_complete"
+
+	if not os.path.exists(path):
+		os.makedirs(path)
+		print("made new directory: " + path)
+
+	np.save(path + '/X.npy',data[0].astype('uint8'))
+	np.save(path + '/Y.npy',data[1].astype('uint8'))
+	np.save(path + '/subjectIDs.npy',data[2].astype('uint8'))
 
 dataPath = 'G:/Documenten/personal/school/MaNaMA_AI/thesis/databases/wikipedia_list/cohn-Kanade/CK+'
 
@@ -1027,7 +1042,7 @@ def load_npy_files(depth = 5,direc = "CKP",absolute_path=None):
 		try:
 			X_data = np.load(full_path +  '/X.npy')
 			Y_data = np.load(full_path + '/Y.npy')
-			X_subID = (np.load(full_path + '/subjectIds.npy').astype('uint8'))
+			X_subID = (np.load(full_path + '/subjectIds.npy'))#.astype('uint8'))
 			print(s + " data found in absolute_path: ", full_path)
 
 			showInfo(X_data,"X_data")
@@ -1046,7 +1061,7 @@ def load_npy_files(depth = 5,direc = "CKP",absolute_path=None):
 
 			X_data = np.load(path + '/X.npy')
 			Y_data = np.load(path + '/Y.npy')
-			X_subID = (np.load(path + '/subjectIDs.npy')).astype('uint8')
+			X_subID = (np.load(path + '/subjectIDs.npy'))#.astype('uint8')
 			print(s + "data found in path: ", path )
 
 			showInfo(X_data,"X_data")
@@ -1064,6 +1079,33 @@ def load_npy_files(depth = 5,direc = "CKP",absolute_path=None):
 
 	return None
 
+def load_predivided_data(load_data,condor_run_path = '.'):
+    
+    direc = condor_run_path + '/predivided_data/'+load_data
+    
+    X_train = np.load(direc + '/X_train.npy').astype('uint8')
+    Y_train = np.load(direc + '/Y_train.npy').astype('uint8')
+
+    X_val = np.load(direc + '/X_val.npy').astype('uint8')
+    Y_val = np.load(direc + '/Y_val.npy').astype('uint8')
+
+    X_test = np.load(direc + '/X_test.npy').astype('uint8')
+    Y_test = np.load(direc + '/Y_test.npy').astype('uint8')
+
+    showInfo(X_train,'X_train')
+    showInfo(Y_train,'Y_train')
+    showInfo(X_val,'X_val')
+    showInfo(X_val,'X_val')
+    showInfo(X_test,'X_test')
+    showInfo(Y_test,'Y_test')
+    
+    print( "tot length ", len(X_train) + len(X_val) + len(X_test))
+    mem_usage = memory_usage(-1, interval=.5, timeout=1)
+    str = 'Maximum memory usage: ' + repr( mem_usage)
+    logprint(str)
+    
+    return [X_train,Y_train, X_val, Y_val, X_test, Y_test]
+
 # if __name__=='__main__':
 # 	load_npy_CKP_files()
 
@@ -1077,6 +1119,228 @@ def load_all_annotated_CKP_data_neutral(datasetPath, printData = 0):
 	logging.info("hello")
 
 
+ 	#stores the current working directory path to restore at the end and goes to the given database path
+	curr_path = os.getcwd()
+	os.chdir(datasetPath)
+	#get a list of URLs to all the emotion file that can be found
+	label_list = glob('./Emotion/*/*/*.txt')
+
+	
+	X_data = [] # list of input data = climax images of emotions
+	Y_data = [] # list of output data = emotion expressed in image
+	X_subID = [] # list with subject Id of each X_data element 
+
+	# each emotion clip has only a few relevant images that represent an emotion 
+	relevant_part = 0.33 # the "precentage" of the end of the clip that has relevant images for that emotion
+
+
+	i = 0 #count of total amount of instance
+	tot_img_count = 0 # Count of how many images there are loaded
+
+	#count per emotion
+	N = 0 # Neutral
+	A = 0 # Anger
+	C = 0 # Contempt
+	D = 0 # Disgust
+	F = 0 # Fear
+	H = 0 # Happy
+	Sa = 0# Saddness
+	Su = 0# Surprise
+
+	#subject counter
+	sub = 0
+	lastSub = 0
+	subjectID = 0
+
+	#count of dimensions
+	dimMap = {}
+
+	
+	# # image
+	# img = cv2.imread(str)
+
+	print("begin loading data")
+	#iterate through the list of label files, open corresponding images
+	for fn in label_list:
+	
+
+		str = './cohn-kanade-images'+ fn[9:-29] + '*.png'
+		
+		# print(fn[9:-29])
+		# print(str)
+
+		
+
+		img_list = glob(str)
+
+		print("---NEXT FN--------")
+		print("label_list fn" , fn)
+		print("label_list str" , str)
+		# image
+		# img = cv2.imread(str)
+		# img = sc.misc.imread(str,flatten=True)
+		# cv2.imshow('image',img)
+
+		img = []
+		img_neutral =[]
+
+		relevant_amount = int(round(len(img_list)*relevant_part))
+		
+		# stre = "from " + repr( len(img_list)) +  "amount of images only " + repr(relevant_amount) + " is relevant"
+		# logging.info(stre)
+		tot_img_count = tot_img_count + relevant_amount 
+		# print("tot_img_count ", tot_img_count)
+
+		# read emotion labels from the file
+		file = open(fn,'r')
+		fileTxt = file.read()
+		emotionNr = int(fileTxt[3:4])
+		file.close()
+
+		#determine the subject (number is within URL)
+		subjectID = fn[11:14]
+		if subjectID != lastSub :
+			sub = sub + 1
+		lastSub = subjectID 
+
+
+		#determine the emotion of the image
+		if(emotionNr == 0):
+			emotion = 'Neutral'
+			N = N + relevant_amount
+		elif(emotionNr == 1):
+			emotion = 'Anger'
+			A = A + relevant_amount 
+		# elif(emotionNr == 2):
+		# 	emotion = 'Contempt'
+		# 	C = C + relevant_amount 
+		elif(emotionNr == 3):
+			emotion = 'Disgust'
+			D = D + relevant_amount 
+		elif(emotionNr == 4):
+			emotion = 'Fear '
+			F = F + relevant_amount 
+		elif(emotionNr == 5):
+			emotion = 'Happy'
+			H = H + relevant_amount 
+		elif(emotionNr == 6):
+			emotion = 'Saddness'
+			Sa = Sa + relevant_amount 
+		else:
+			emotion = 'Surprise'
+			Su = Su + relevant_amount 
+
+
+		#the first 3 images are taken as being neutral
+		count = 0
+		for url in img_list[0:3]:
+			# print(url)
+			image = cv2.imread(url)
+			img_neutral.append(cv2.cvtColor(image, cv2.COLOR_BGR2GRAY))
+			N = N + 1
+			print("---NEXT URL--------")
+			print ("neutral image ", url)
+			# stre = "neutral img = " + repr(count)
+			# cv2.imshow(stre, image)
+			# cv2.waitKey(0)
+			# cv2.destroyAllWindows()
+
+			count = count +1
+
+		# relevant amount of  the last frames are taken as belonging to that emotion
+		count = 0
+		for url in img_list[(len(img_list)-relevant_amount) :len(img_list)]:
+			# print(url)
+			image = cv2.imread(url)
+			img.append(cv2.cvtColor(image, cv2.COLOR_BGR2GRAY))
+			print ("relenvant image ", url)
+
+			stre = "emotion img = " + repr(count) + " " + emotion
+			cv2.imshow(stre, image)
+			cv2.waitKey(0)
+			cv2.destroyAllWindows()
+			count = count +1
+
+
+		#sizeStr = repr(img.shape[0]) + "x" + repr(img.shape[1]) #+ "x" + repr(img.shape[2])
+
+		# test accessing single elements
+		# if sizeStr in dimMap:
+		# 	dimMap[sizeStr] = dimMap[sizeStr] + 1 
+		# else:
+		# 	dimMap[sizeStr] = 1
+
+		
+
+		
+
+
+
+		if(emotionNr != 2):
+			# store images of the neutral expression and emotion label in the X_data and Y_data lists
+			for j in img_neutral:
+				X_data.append(j)
+				Y_data.append(2)
+				X_subID.append(subjectID)	
+
+			# store image and emotion label in the X_data and Y_data lists
+			for j in img:
+				X_data.append(j)
+				Y_data.append(emotionNr)
+				X_subID.append(subjectID)
+
+			# print("X_data length ",len(X_data))
+			
+			i = i+len(img) + len(img_neutral)
+		
+		if (sub%20 ==0):
+			logprint(repr(sub)+"subjects loaded")
+
+		if printData :
+			logging.info("-------------------------------")
+
+			logging.info(str) #./cohn-kanade-images/S506/002/S506_004_00000038.png
+			logging.info("amount of image added " + repr( len(img)))
+			logging.info("image type:   " + repr(type(img)))
+
+
+			logging.info('image ' + repr(i) + " " + emotion)
+
+	#show stattistics
+	logging.info("--------- Overal stattistics ---------  ")
+	logging.info("amount of Subjects  : " + repr(sub))
+	logging.info("amount of Instances : " + repr(i))
+	logging.info("code = 1 = Anger      " + repr(A) + " instances: " + repr(np.round((float(A)/i)*100,decimals=2)))
+	logging.info("code = 2 = Neutral    " + repr(N) + " instances: " + repr(np.round((float(N)/i)*100,decimals=2)))
+	logging.info("code = 4 = Fear       " + repr(F) + " instances: "+ repr(np.round((float(F)/i)*100,decimals=2)))
+	logging.info("code = 5 = Happy      " + repr(H) + " instances: "+ repr(np.round((float(H)/i)*100,decimals=2)))
+	logging.info("code = 6 = Saddness   " + repr(Sa) +" instances: "+ repr(np.round((float(Sa)/i)*100,decimals=2)))
+	logging.info("code = 7 = Surprise   " + repr(Su) +" instances: "+ repr(np.round((float(Su)/i)*100,decimals=2)))
+	logging.info("--------- dimensions ---------  ")
+
+
+	logging.info("--------- last elements in lists ---------  ")
+	logging.info("length X_data " + repr(len(X_data))) 
+	logging.info("length Y_data " + repr(len(Y_data)))
+	logging.info("length X_subID " + repr(len(X_subID))) 
+ 
+
+	# # cv2.imshow('image',X_data[len(X_data)-1])
+	# plt.figure('last image')
+	# plt.imshow(X_data[len(X_data)-1], cmap='gray')#, interpolation='nearest');
+	# plt.show()
+
+	print("length Y_data " + repr(Y_data[len(Y_data)-1])) 
+	print("image type " + repr(type(Y_data[len(Y_data)-1]))) 
+
+
+
+	os.chdir(curr_path)
+
+	return [X_data,Y_data,X_subID]
+
+def load_complete_annotated_CKP_data(datasetPath, printData = 0):
+	
  	#stores the current working directory path to restore at the end and goes to the given database path
 	curr_path = os.getcwd()
 	os.chdir(datasetPath)
@@ -1133,43 +1397,20 @@ def load_all_annotated_CKP_data_neutral(datasetPath, printData = 0):
 		# cv2.imshow('image',img)
 
 		img = []
-		img_neutral =[]
 
-		relevant_amount = int(round(len(img_list)*relevant_part))
-		
-		# stre = "from " + repr( len(img_list)) +  "amount of images only " + repr(relevant_amount) + " is relevant"
-		# logging.info(stre)
-		tot_img_count = tot_img_count + relevant_amount 
-		# print("tot_img_count ", tot_img_count)
-
-
-		#the first 3 images are taken as being neutral
-		count = 0
-		for url in img_list[0:3]:
-			# print(url)
-			image = cv2.imread(url)
-			img_neutral.append(cv2.cvtColor(image, cv2.COLOR_BGR2GRAY))
-			N = N + 1
-			# stre = "neutral img = " + repr(count)
-			# cv2.imshow(stre, image)
-			# cv2.waitKey(0)
-			# cv2.destroyAllWindows()
-
-			count = count +1
-
-		# relevant amount of  the last frames are taken as belonging to that emotion
-		count = 0
-		for url in img_list[(len(img_list)-relevant_amount) :len(img_list)]:
+		for url in img_list:
 			# print(url)
 			image = cv2.imread(url)
 			img.append(cv2.cvtColor(image, cv2.COLOR_BGR2GRAY))
 
-			# stre = "emotion img = " + repr(count)
-			# cv2.imshow(stre, image)
-			# cv2.waitKey(0)
-			# cv2.destroyAllWindows()
-			count = count +1
+		# print(len(img))
+		# relevant_amount = int(round(len(img)*relevant_part))
+		# print ("from ", len(img), "amount of images only ",relevant_amount, " is relevant")
+		# tot_img_count = tot_img_count + relevant_amount 
+		# print("tot_img_count ", tot_img_count)
 
+		# cv2.imshow("Faces found", img)
+		# cv2.waitKey(0)
 
 		#sizeStr = repr(img.shape[0]) + "x" + repr(img.shape[1]) #+ "x" + repr(img.shape[2])
 
@@ -1194,90 +1435,90 @@ def load_all_annotated_CKP_data_neutral(datasetPath, printData = 0):
 		#determine the emotion of the image
 		if(emotionNr == 0):
 			emotion = 'Neutral'
-			N = N + relevant_amount
+			N = N #+ relevant_amount 
 		elif(emotionNr == 1):
 			emotion = 'Anger'
-			A = A + relevant_amount 
-		# elif(emotionNr == 2):
-		# 	emotion = 'Contempt'
-		# 	C = C + relevant_amount 
+			A = A #+ relevant_amount 
+		elif(emotionNr == 2):
+			emotion = 'Contempt'
+			C = C #+ relevant_amount 
 		elif(emotionNr == 3):
 			emotion = 'Disgust'
-			D = D + relevant_amount 
+			D = D #+ relevant_amount 
 		elif(emotionNr == 4):
 			emotion = 'Fear '
-			F = F + relevant_amount 
+			F = F #+ relevant_amount 
 		elif(emotionNr == 5):
 			emotion = 'Happy'
-			H = H + relevant_amount 
+			H = H #+ relevant_amount 
 		elif(emotionNr == 6):
 			emotion = 'Saddness'
-			Sa = Sa + relevant_amount 
+			Sa = Sa #+ relevant_amount 
 		else:
 			emotion = 'Surprise'
-			Su = Su + relevant_amount 
+			Su = Su #+ relevant_amount 
 
+		
 
+	# store image and emotion label in the X_data and Y_data lists
+		# for j in img[(len(img)-relevant_amount) :len(img)]:
+		for j in img:
+			X_data.append(j)
+			Y_data.append(emotionNr)
+			X_subID.append(subjectID)
 
-		if(emotionNr != 2):
-			# store images of the neutral expression and emotion label in the X_data and Y_data lists
-			for j in img_neutral:
-				X_data.append(j)
-				Y_data.append(2)
-				X_subID.append(subjectID)	
-
-			# store image and emotion label in the X_data and Y_data lists
-			for j in img:
-				X_data.append(j)
-				Y_data.append(emotionNr)
-				X_subID.append(subjectID)
-
-			# print("X_data length ",len(X_data))
-			
-			i = i+len(img) + len(img_neutral)
+		# print("X_data length ",len(X_data))
+		
+		i = i+ len(img)
 		
 		if (sub%20 ==0):
-			logprint(repr(sub)+"subjects loaded")
+			print(sub,"subjects loaded")
 
 		if printData :
-			logging.info("-------------------------------")
+			print("-------------------------------")
 
-			logging.info(str) #./cohn-kanade-images/S506/002/S506_004_00000038.png
-			logging.info("amount of image added " + repr( len(img)))
-			logging.info("image type:   " + repr(type(img)))
+			print(str) #./cohn-kanade-images/S506/002/S506_004_00000038.png
+			print("amount of image added " , len(img))
+			print("image type:   " + repr(type(img)))
 
 
-			logging.info('image ' + repr(i) + " " + emotion)
+			print('image ' + repr(i) + " " + emotion)
 
 	#show stattistics
-	logging.info("--------- Overal stattistics ---------  ")
-	logging.info("amount of Subjects  : " + repr(sub))
-	logging.info("amount of Instances : " + repr(i))
-	logging.info("code = 1 = Anger      " + repr(A) + " instances: " + repr(np.round((float(A)/i)*100),decimals=2))
-	logging.info("code = 2 = Neutral    " + repr(N) + " instances: " + repr(np.round((float(N)/i)*100),decimals=2))
-	logging.info("code = 3 = Disgust    " + repr(D) + " instances: "+ repr(np.round((float(D)/i)*100),decimals=2))
-	logging.info("code = 4 = Fear       " + repr(F) + " instances: "+ repr(np.round((float(F)/i)*100),decimals=2))
-	logging.info("code = 5 = Happy      " + repr(H) + " instances: "+ repr(np.round((float(H)/i)*100),decimals=2))
-	logging.info("code = 6 = Saddness   " + repr(Sa) +" instances: "+ repr(np.round((float(Sa)/i)*100),decimals=2))
-	logging.info("code = 7 = Surprise   " + repr(Su) +" instances: "+ repr(np.round((float(Su)/i)*100),decimals=2))
-	logging.info("--------- dimensions ---------  ")
+	print("--------- Overal stattistics ---------  ")
+	print("amount of Subjects  : %d" % sub)
+	print("amount of Instances : %d" % i)
+	print("code = 0 = Neutral    %d instances: %.2f" % (N,((float(N)/i)*100)))
+	print("code = 1 = Anger      %d instances: %.2f"  % (A,((float(A)/i)*100)))
+	print("code = 2 = Contempt   %d instances: %.2f"  % (C,((float(C)/i)*100)))
+	print("code = 3 = Disgust    %d instances: %.2f"  % (D,((float(D)/i)*100)))
+	print("code = 4 = Fear       %d instances: %.2f"  % (F,((float(F)/i)*100)))
+	print("code = 5 = Happy      %d instances: %.2f"  % (H,((float(H)/i)*100)))
+	print("code = 6 = Saddness   %d instances: %.2f"  % (Sa,((float(Sa)/i)*100)))
+	print("code = 7 = Surprise   %d instances: %.2f"  % (Su,((float(Su)/i)*100)))
+	print("--------- dimensions ---------  ")
+	# print(repr(dimMap))
 
-
-	logging.info("--------- last elements in lists ---------  ")
-	logging.info("length X_data " + repr(len(X_data))) 
-	logging.info("length Y_data " + repr(len(Y_data)))
-	logging.info("length X_subID " + repr(len(X_subID))) 
+	print("--------- last elements in lists ---------  ")
+	print("length X_data " + repr(len(X_data))) 
+	print("length Y_data " + repr(len(Y_data)))
+	print("length X_subID " + repr(len(X_subID))) 
  
 
-	# # cv2.imshow('image',X_data[len(X_data)-1])
-	# plt.figure('last image')
-	# plt.imshow(X_data[len(X_data)-1], cmap='gray')#, interpolation='nearest');
-	# plt.show()
+	# cv2.imshow('image',X_data[len(X_data)-1])
+	plt.figure('last image')
+	plt.imshow(X_data[len(X_data)-1], cmap='gray')#, interpolation='nearest');
+	plt.show()
 
 	print("length Y_data " + repr(Y_data[len(Y_data)-1])) 
 	print("image type " + repr(type(Y_data[len(Y_data)-1]))) 
 
+   
 
+	cv2.waitKey(0)
+		
+
+	cv2.destroyAllWindows()
 
 	os.chdir(curr_path)
 

@@ -30,6 +30,7 @@ from showNumpyInfo import showInfo
 
 from Dexpression_network import create_Dexpression_network
 from Dexpression_network import create_Dexpression_GAP_network
+from Dexpression_network import create_original_Dexpression_network
 
 def train_dexpression_model(RUNID,data,subIDs,tf_checkpoints,cascPath,dropout_keep_prob=0.5):
     
@@ -132,7 +133,7 @@ def train_on_predivided_dexpression_model(RUNID,data,tf_checkpoints,cascPath,dro
 #     network = create_Dexpression_network(dropout_keep_prob)
 
 #     network with GAP layer
-    network = create_Dexpression_network(dropout_keep_prob)
+    network = create_original_Dexpression_network(dropout_keep_prob)
     
 
 

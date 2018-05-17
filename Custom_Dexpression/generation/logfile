@@ -1,0 +1,1686 @@
+2018-04-24 14:51:57,417 INFO     hello
+2018-04-24 14:55:06,235 INFO     -------------------------------
+2018-04-24 14:55:06,235 INFO     ./cohn-kanade-images\S005\001\*.png
+2018-04-24 14:55:06,235 INFO     amount of image added 4
+2018-04-24 14:55:06,235 INFO     image type:   <class 'list'>
+2018-04-24 14:55:06,235 INFO     ---
+2018-04-24 15:18:02,638 INFO     -------------------------------
+2018-04-24 15:18:02,866 INFO     ./cohn-kanade-images\S005\001\*.png
+2018-04-24 15:18:02,866 INFO     amount of image added 4
+2018-04-24 15:18:02,867 INFO     image type:   <class 'list'>
+2018-04-24 15:18:02,867 INFO     image 7 Disgust
+2018-04-24 15:18:03,156 INFO     -------------------------------
+2018-04-24 15:18:03,157 INFO     ./cohn-kanade-images\S010\002\*.png
+2018-04-24 15:18:03,157 INFO     amount of image added 5
+2018-04-24 15:18:03,158 INFO     image type:   <class 'list'>
+2018-04-24 15:18:03,158 INFO     image 15 Surprise
+2018-04-24 15:18:03,473 INFO     -------------------------------
+2018-04-24 15:18:03,473 INFO     ./cohn-kanade-images\S010\004\*.png
+2018-04-24 15:18:03,474 INFO     amount of image added 6
+2018-04-24 15:18:03,474 INFO     image type:   <class 'list'>
+2018-04-24 15:18:03,474 INFO     image 24 Anger
+2018-04-24 15:18:03,678 INFO     -------------------------------
+2018-04-24 15:18:03,678 INFO     ./cohn-kanade-images\S010\006\*.png
+2018-04-24 15:18:03,678 INFO     amount of image added 5
+2018-04-24 15:18:03,679 INFO     image type:   <class 'list'>
+2018-04-24 15:18:03,679 INFO     image 32 Happy
+2018-04-24 15:18:03,951 INFO     -------------------------------
+2018-04-24 15:18:03,952 INFO     ./cohn-kanade-images\S011\001\*.png
+2018-04-24 15:18:03,952 INFO     amount of image added 5
+2018-04-24 15:18:03,952 INFO     image type:   <class 'list'>
+2018-04-24 15:18:03,953 INFO     image 40 Surprise
+2018-04-24 15:18:04,217 INFO     -------------------------------
+2018-04-24 15:18:04,217 INFO     ./cohn-kanade-images\S011\002\*.png
+2018-04-24 15:18:04,218 INFO     amount of image added 7
+2018-04-24 15:18:04,218 INFO     image type:   <class 'list'>
+2018-04-24 15:18:04,218 INFO     image 50 Saddness
+2018-04-24 15:18:04,417 INFO     -------------------------------
+2018-04-24 15:18:04,417 INFO     ./cohn-kanade-images\S011\003\*.png
+2018-04-24 15:18:04,418 INFO     amount of image added 5
+2018-04-24 15:18:04,418 INFO     image type:   <class 'list'>
+2018-04-24 15:18:04,419 INFO     image 58 Fear 
+2018-04-24 15:18:04,682 INFO     -------------------------------
+2018-04-24 15:18:04,682 INFO     ./cohn-kanade-images\S011\004\*.png
+2018-04-24 15:18:04,683 INFO     amount of image added 7
+2018-04-24 15:18:04,683 INFO     image type:   <class 'list'>
+2018-04-24 15:18:04,684 INFO     image 68 Anger
+2018-04-24 15:18:04,918 INFO     -------------------------------
+2018-04-24 15:18:04,919 INFO     ./cohn-kanade-images\S011\005\*.png
+2018-04-24 15:18:04,919 INFO     amount of image added 7
+2018-04-24 15:18:04,920 INFO     image type:   <class 'list'>
+2018-04-24 15:18:04,920 INFO     image 78 Disgust
+2018-04-24 15:18:05,131 INFO     -------------------------------
+2018-04-24 15:18:05,131 INFO     ./cohn-kanade-images\S011\006\*.png
+2018-04-24 15:18:05,132 INFO     amount of image added 4
+2018-04-24 15:18:05,132 INFO     image type:   <class 'list'>
+2018-04-24 15:18:05,132 INFO     image 85 Happy
+2018-04-24 15:18:05,425 INFO     -------------------------------
+2018-04-24 15:18:05,426 INFO     ./cohn-kanade-images\S014\001\*.png
+2018-04-24 15:18:05,426 INFO     amount of image added 10
+2018-04-24 15:18:05,427 INFO     image type:   <class 'list'>
+2018-04-24 15:18:05,427 INFO     image 98 Surprise
+2018-04-24 15:18:05,647 INFO     -------------------------------
+2018-04-24 15:18:05,648 INFO     ./cohn-kanade-images\S014\002\*.png
+2018-04-24 15:18:05,648 INFO     amount of image added 5
+2018-04-24 15:18:05,648 INFO     image type:   <class 'list'>
+2018-04-24 15:18:05,649 INFO     image 106 Saddness
+2018-04-24 15:18:06,109 INFO     -------------------------------
+2018-04-24 15:18:06,110 INFO     ./cohn-kanade-images\S014\003\*.png
+2018-04-24 15:18:06,110 INFO     amount of image added 10
+2018-04-24 15:18:06,110 INFO     image type:   <class 'list'>
+2018-04-24 15:18:06,111 INFO     image 119 Anger
+2018-04-24 15:18:06,486 INFO     -------------------------------
+2018-04-24 15:18:06,487 INFO     ./cohn-kanade-images\S014\005\*.png
+2018-04-24 15:18:06,487 INFO     amount of image added 6
+2018-04-24 15:18:06,487 INFO     image type:   <class 'list'>
+2018-04-24 15:18:06,487 INFO     image 128 Happy
+2018-04-24 15:18:07,115 INFO     -------------------------------
+2018-04-24 15:18:07,116 INFO     ./cohn-kanade-images\S022\001\*.png
+2018-04-24 15:18:07,116 INFO     amount of image added 10
+2018-04-24 15:18:07,116 INFO     image type:   <class 'list'>
+2018-04-24 15:18:07,117 INFO     image 141 Surprise
+2018-04-24 15:18:07,579 INFO     -------------------------------
+2018-04-24 15:18:07,579 INFO     ./cohn-kanade-images\S022\005\*.png
+2018-04-24 15:18:07,579 INFO     amount of image added 11
+2018-04-24 15:18:07,580 INFO     image type:   <class 'list'>
+2018-04-24 15:18:07,580 INFO     image 155 Anger
+2018-04-24 15:18:08,003 INFO     -------------------------------
+2018-04-24 15:18:08,003 INFO     ./cohn-kanade-images\S022\006\*.png
+2018-04-24 15:18:08,004 INFO     amount of image added 6
+2018-04-24 15:18:08,004 INFO     image type:   <class 'list'>
+2018-04-24 15:18:08,005 INFO     image 164 Disgust
+2018-04-24 15:18:08,267 INFO     -------------------------------
+2018-04-24 15:18:08,267 INFO     ./cohn-kanade-images\S026\001\*.png
+2018-04-24 15:18:08,268 INFO     amount of image added 5
+2018-04-24 15:18:08,268 INFO     image type:   <class 'list'>
+2018-04-24 15:18:08,269 INFO     image 172 Surprise
+2018-04-24 15:18:08,478 INFO     -------------------------------
+2018-04-24 15:18:08,479 INFO     ./cohn-kanade-images\S026\002\*.png
+2018-04-24 15:18:08,480 INFO     amount of image added 5
+2018-04-24 15:18:08,480 INFO     image type:   <class 'list'>
+2018-04-24 15:18:08,481 INFO     image 180 Saddness
+2018-04-24 15:18:08,728 INFO     -------------------------------
+2018-04-24 15:18:08,728 INFO     ./cohn-kanade-images\S026\003\*.png
+2018-04-24 15:18:08,728 INFO     amount of image added 5
+2018-04-24 15:18:08,729 INFO     image type:   <class 'list'>
+2018-04-24 15:18:08,729 INFO     image 188 Anger
+2018-04-24 15:18:08,968 INFO     -------------------------------
+2018-04-24 15:18:08,969 INFO     ./cohn-kanade-images\S026\006\*.png
+2018-04-24 15:18:08,969 INFO     amount of image added 4
+2018-04-24 15:18:08,970 INFO     image type:   <class 'list'>
+2018-04-24 15:18:08,970 INFO     image 195 Happy
+2018-04-24 15:18:09,351 INFO     -------------------------------
+2018-04-24 15:18:09,352 INFO     ./cohn-kanade-images\S028\001\*.png
+2018-04-24 15:18:09,352 INFO     amount of image added 8
+2018-04-24 15:18:09,353 INFO     image type:   <class 'list'>
+2018-04-24 15:18:09,353 INFO     image 206 Anger
+2018-04-24 15:18:09,658 INFO     -------------------------------
+2018-04-24 15:18:09,658 INFO     ./cohn-kanade-images\S029\001\*.png
+2018-04-24 15:18:09,659 INFO     amount of image added 6
+2018-04-24 15:18:09,659 INFO     image type:   <class 'list'>
+2018-04-24 15:18:09,659 INFO     image 215 Anger
+2018-04-24 15:18:09,988 INFO     -------------------------------
+2018-04-24 15:18:09,989 INFO     ./cohn-kanade-images\S032\001\*.png
+2018-04-24 15:18:09,989 INFO     amount of image added 7
+2018-04-24 15:18:09,989 INFO     image type:   <class 'list'>
+2018-04-24 15:18:09,990 INFO     image 225 Surprise
+2018-04-24 15:18:10,349 INFO     -------------------------------
+2018-04-24 15:18:10,349 INFO     ./cohn-kanade-images\S032\003\*.png
+2018-04-24 15:18:10,350 INFO     amount of image added 6
+2018-04-24 15:18:10,350 INFO     image type:   <class 'list'>
+2018-04-24 15:18:10,350 INFO     image 234 Anger
+2018-04-24 15:18:10,723 INFO     -------------------------------
+2018-04-24 15:18:10,724 INFO     ./cohn-kanade-images\S032\004\*.png
+2018-04-24 15:18:10,725 INFO     amount of image added 5
+2018-04-24 15:18:10,725 INFO     image type:   <class 'list'>
+2018-04-24 15:18:10,726 INFO     image 242 Fear 
+2018-04-24 15:18:11,045 INFO     -------------------------------
+2018-04-24 15:18:11,045 INFO     ./cohn-kanade-images\S032\005\*.png
+2018-04-24 15:18:11,046 INFO     amount of image added 5
+2018-04-24 15:18:11,046 INFO     image type:   <class 'list'>
+2018-04-24 15:18:11,047 INFO     image 250 Disgust
+2018-04-24 15:18:11,368 INFO     -------------------------------
+2018-04-24 15:18:11,369 INFO     ./cohn-kanade-images\S032\006\*.png
+2018-04-24 15:18:11,369 INFO     amount of image added 5
+2018-04-24 15:18:11,369 INFO     image type:   <class 'list'>
+2018-04-24 15:18:11,370 INFO     image 258 Happy
+2018-04-24 15:18:11,895 INFO     -------------------------------
+2018-04-24 15:18:11,896 INFO     ./cohn-kanade-images\S034\001\*.png
+2018-04-24 15:18:11,897 INFO     amount of image added 10
+2018-04-24 15:18:11,897 INFO     image type:   <class 'list'>
+2018-04-24 15:18:11,898 INFO     image 271 Surprise
+2018-04-24 15:18:12,335 INFO     -------------------------------
+2018-04-24 15:18:12,335 INFO     ./cohn-kanade-images\S034\003\*.png
+2018-04-24 15:18:12,336 INFO     amount of image added 9
+2018-04-24 15:18:12,336 INFO     image type:   <class 'list'>
+2018-04-24 15:18:12,336 INFO     image 283 Anger
+2018-04-24 15:18:12,547 INFO     -------------------------------
+2018-04-24 15:18:12,548 INFO     ./cohn-kanade-images\S034\005\*.png
+2018-04-24 15:18:12,548 INFO     amount of image added 3
+2018-04-24 15:18:12,548 INFO     image type:   <class 'list'>
+2018-04-24 15:18:12,549 INFO     image 289 Happy
+2018-04-24 15:18:12,811 INFO     -------------------------------
+2018-04-24 15:18:12,811 INFO     ./cohn-kanade-images\S035\001\*.png
+2018-04-24 15:18:12,811 INFO     amount of image added 5
+2018-04-24 15:18:12,812 INFO     image type:   <class 'list'>
+2018-04-24 15:18:12,812 INFO     image 297 Surprise
+2018-04-24 15:18:13,130 INFO     -------------------------------
+2018-04-24 15:18:13,131 INFO     ./cohn-kanade-images\S035\005\*.png
+2018-04-24 15:18:13,131 INFO     amount of image added 6
+2018-04-24 15:18:13,132 INFO     image type:   <class 'list'>
+2018-04-24 15:18:13,132 INFO     image 306 Disgust
+2018-04-24 15:18:13,502 INFO     -------------------------------
+2018-04-24 15:18:13,502 INFO     ./cohn-kanade-images\S035\006\*.png
+2018-04-24 15:18:13,503 INFO     amount of image added 6
+2018-04-24 15:18:13,503 INFO     image type:   <class 'list'>
+2018-04-24 15:18:13,503 INFO     image 315 Happy
+2018-04-24 15:18:13,818 INFO     -------------------------------
+2018-04-24 15:18:13,819 INFO     ./cohn-kanade-images\S037\001\*.png
+2018-04-24 15:18:13,819 INFO     amount of image added 7
+2018-04-24 15:18:13,819 INFO     image type:   <class 'list'>
+2018-04-24 15:18:13,819 INFO     image 325 Surprise
+2018-04-24 15:18:14,111 INFO     -------------------------------
+2018-04-24 15:18:14,112 INFO     ./cohn-kanade-images\S037\003\*.png
+2018-04-24 15:18:14,112 INFO     amount of image added 7
+2018-04-24 15:18:14,112 INFO     image type:   <class 'list'>
+2018-04-24 15:18:14,113 INFO     image 335 Anger
+2018-04-24 15:18:14,475 INFO     -------------------------------
+2018-04-24 15:18:14,475 INFO     ./cohn-kanade-images\S037\006\*.png
+2018-04-24 15:18:14,475 INFO     amount of image added 7
+2018-04-24 15:18:14,476 INFO     image type:   <class 'list'>
+2018-04-24 15:18:14,476 INFO     image 345 Happy
+2018-04-24 15:18:14,927 INFO     -------------------------------
+2018-04-24 15:18:14,927 INFO     ./cohn-kanade-images\S042\001\*.png
+2018-04-24 15:18:14,928 INFO     amount of image added 6
+2018-04-24 15:18:14,928 INFO     image type:   <class 'list'>
+2018-04-24 15:18:14,929 INFO     image 354 Surprise
+2018-04-24 15:18:15,693 INFO     -------------------------------
+2018-04-24 15:18:15,693 INFO     ./cohn-kanade-images\S042\002\*.png
+2018-04-24 15:18:15,694 INFO     amount of image added 5
+2018-04-24 15:18:15,694 INFO     image type:   <class 'list'>
+2018-04-24 15:18:15,695 INFO     image 362 Saddness
+2018-04-24 15:18:16,646 INFO     -------------------------------
+2018-04-24 15:18:16,647 INFO     ./cohn-kanade-images\S042\004\*.png
+2018-04-24 15:18:16,647 INFO     amount of image added 7
+2018-04-24 15:18:16,648 INFO     image type:   <class 'list'>
+2018-04-24 15:18:16,648 INFO     image 372 Anger
+2018-04-24 15:18:18,198 INFO     -------------------------------
+2018-04-24 15:18:18,199 INFO     ./cohn-kanade-images\S042\006\*.png
+2018-04-24 15:18:18,200 INFO     amount of image added 6
+2018-04-24 15:18:18,201 INFO     image type:   <class 'list'>
+2018-04-24 15:18:18,201 INFO     image 381 Happy
+2018-04-24 15:18:19,308 INFO     -------------------------------
+2018-04-24 15:18:19,309 INFO     ./cohn-kanade-images\S044\001\*.png
+2018-04-24 15:18:19,310 INFO     amount of image added 8
+2018-04-24 15:18:19,310 INFO     image type:   <class 'list'>
+2018-04-24 15:18:19,310 INFO     image 392 Surprise
+2018-04-24 15:18:19,628 INFO     -------------------------------
+2018-04-24 15:18:19,628 INFO     ./cohn-kanade-images\S044\003\*.png
+2018-04-24 15:18:19,629 INFO     amount of image added 5
+2018-04-24 15:18:19,629 INFO     image type:   <class 'list'>
+2018-04-24 15:18:19,630 INFO     image 400 Happy
+2018-04-24 15:18:19,921 INFO     -------------------------------
+2018-04-24 15:18:19,921 INFO     ./cohn-kanade-images\S044\006\*.png
+2018-04-24 15:18:19,921 INFO     amount of image added 6
+2018-04-24 15:18:19,921 INFO     image type:   <class 'list'>
+2018-04-24 15:18:19,922 INFO     image 409 Disgust
+2018-04-24 15:18:20,164 INFO     -------------------------------
+2018-04-24 15:18:20,164 INFO     ./cohn-kanade-images\S045\004\*.png
+2018-04-24 15:18:20,165 INFO     amount of image added 5
+2018-04-24 15:18:20,165 INFO     image type:   <class 'list'>
+2018-04-24 15:18:20,166 INFO     image 417 Disgust
+2018-04-24 15:18:20,518 INFO     -------------------------------
+2018-04-24 15:18:20,518 INFO     ./cohn-kanade-images\S045\005\*.png
+2018-04-24 15:18:20,519 INFO     amount of image added 10
+2018-04-24 15:18:20,519 INFO     image type:   <class 'list'>
+2018-04-24 15:18:20,519 INFO     image 430 Anger
+2018-04-24 15:18:21,019 INFO     -------------------------------
+2018-04-24 15:18:21,020 INFO     ./cohn-kanade-images\S046\001\*.png
+2018-04-24 15:18:21,020 INFO     amount of image added 8
+2018-04-24 15:18:21,020 INFO     image type:   <class 'list'>
+2018-04-24 15:18:21,021 INFO     image 441 Saddness
+2018-04-24 15:18:21,214 INFO     -------------------------------
+2018-04-24 15:18:21,215 INFO     ./cohn-kanade-images\S046\002\*.png
+2018-04-24 15:18:21,216 INFO     amount of image added 2
+2018-04-24 15:18:21,216 INFO     image type:   <class 'list'>
+2018-04-24 15:18:21,216 INFO     image 446 Surprise
+2018-04-24 15:18:21,493 INFO     -------------------------------
+2018-04-24 15:18:21,494 INFO     ./cohn-kanade-images\S046\003\*.png
+2018-04-24 15:18:21,494 INFO     amount of image added 5
+2018-04-24 15:18:21,495 INFO     image type:   <class 'list'>
+2018-04-24 15:18:21,495 INFO     image 454 Fear 
+2018-04-24 15:18:21,830 INFO     -------------------------------
+2018-04-24 15:18:21,830 INFO     ./cohn-kanade-images\S046\004\*.png
+2018-04-24 15:18:21,831 INFO     amount of image added 6
+2018-04-24 15:18:21,831 INFO     image type:   <class 'list'>
+2018-04-24 15:18:21,831 INFO     image 463 Disgust
+2018-04-24 15:18:22,141 INFO     -------------------------------
+2018-04-24 15:18:22,142 INFO     ./cohn-kanade-images\S050\001\*.png
+2018-04-24 15:18:22,142 INFO     amount of image added 6
+2018-04-24 15:18:22,142 INFO     image type:   <class 'list'>
+2018-04-24 15:18:22,142 INFO     image 472 Fear 
+2018-04-24 15:18:22,433 INFO     -------------------------------
+2018-04-24 15:18:22,433 INFO     ./cohn-kanade-images\S050\002\*.png
+2018-04-24 15:18:22,434 INFO     amount of image added 6
+2018-04-24 15:18:22,434 INFO     image type:   <class 'list'>
+2018-04-24 15:18:22,434 INFO     image 481 Surprise
+2018-04-24 15:18:22,729 INFO     -------------------------------
+2018-04-24 15:18:22,730 INFO     ./cohn-kanade-images\S050\004\*.png
+2018-04-24 15:18:22,731 INFO     amount of image added 7
+2018-04-24 15:18:22,732 INFO     image type:   <class 'list'>
+2018-04-24 15:18:22,732 INFO     image 491 Anger
+2018-04-24 15:18:23,126 INFO     -------------------------------
+2018-04-24 15:18:23,126 INFO     ./cohn-kanade-images\S050\006\*.png
+2018-04-24 15:18:23,127 INFO     amount of image added 8
+2018-04-24 15:18:23,127 INFO     image type:   <class 'list'>
+2018-04-24 15:18:23,127 INFO     image 502 Happy
+2018-04-24 15:18:23,438 INFO     -------------------------------
+2018-04-24 15:18:23,438 INFO     ./cohn-kanade-images\S051\002\*.png
+2018-04-24 15:18:23,439 INFO     amount of image added 6
+2018-04-24 15:18:23,439 INFO     image type:   <class 'list'>
+2018-04-24 15:18:23,439 INFO     image 511 Surprise
+2018-04-24 15:18:23,763 INFO     -------------------------------
+2018-04-24 15:18:23,764 INFO     ./cohn-kanade-images\S051\003\*.png
+2018-04-24 15:18:23,764 INFO     amount of image added 6
+2018-04-24 15:18:23,764 INFO     image type:   <class 'list'>
+2018-04-24 15:18:23,764 INFO     image 520 Disgust
+2018-04-24 15:18:24,010 INFO     -------------------------------
+2018-04-24 15:18:24,011 INFO     ./cohn-kanade-images\S052\001\*.png
+2018-04-24 15:18:24,011 INFO     amount of image added 5
+2018-04-24 15:18:24,011 INFO     image type:   <class 'list'>
+2018-04-24 15:18:24,011 INFO     image 528 Surprise
+2018-04-24 15:18:24,511 INFO     -------------------------------
+2018-04-24 15:18:24,511 INFO     ./cohn-kanade-images\S052\004\*.png
+2018-04-24 15:18:24,511 INFO     amount of image added 11
+2018-04-24 15:18:24,512 INFO     image type:   <class 'list'>
+2018-04-24 15:18:24,512 INFO     image 542 Happy
+2018-04-24 15:18:25,079 INFO     -------------------------------
+2018-04-24 15:18:25,080 INFO     ./cohn-kanade-images\S052\006\*.png
+2018-04-24 15:18:25,080 INFO     amount of image added 4
+2018-04-24 15:18:25,081 INFO     image type:   <class 'list'>
+2018-04-24 15:18:25,081 INFO     image 549 Disgust
+2018-04-24 15:18:25,606 INFO     20subjects loaded
+2018-04-24 15:18:26,802 INFO     Maximum memory usage: [277.5, 277.53515625, 277.53515625, 277.53515625, 277.53515625]
+2018-04-24 15:18:26,803 INFO     -------------------------------
+2018-04-24 15:18:26,804 INFO     Maximum memory usage: [277.5, 277.53515625, 277.53515625, 277.53515625, 277.53515625]
+2018-04-24 15:18:26,805 INFO     amount of image added 8
+2018-04-24 15:18:26,805 INFO     image type:   <class 'list'>
+2018-04-24 15:18:26,806 INFO     image 560 Surprise
+2018-04-24 15:18:27,156 INFO     20subjects loaded
+2018-04-24 15:18:28,174 INFO     Maximum memory usage: [281.44921875, 281.44921875, 281.44921875, 281.44921875, 281.44921875]
+2018-04-24 15:18:28,175 INFO     -------------------------------
+2018-04-24 15:18:28,176 INFO     Maximum memory usage: [281.44921875, 281.44921875, 281.44921875, 281.44921875, 281.44921875]
+2018-04-24 15:18:28,176 INFO     amount of image added 8
+2018-04-24 15:18:28,177 INFO     image type:   <class 'list'>
+2018-04-24 15:18:28,177 INFO     image 571 Happy
+2018-04-24 15:18:28,490 INFO     -------------------------------
+2018-04-24 15:18:28,491 INFO     ./cohn-kanade-images\S054\002\*.png
+2018-04-24 15:18:28,491 INFO     amount of image added 5
+2018-04-24 15:18:28,491 INFO     image type:   <class 'list'>
+2018-04-24 15:18:28,491 INFO     image 579 Fear 
+2018-04-24 15:18:28,626 INFO     -------------------------------
+2018-04-24 15:18:28,627 INFO     ./cohn-kanade-images\S054\003\*.png
+2018-04-24 15:18:28,627 INFO     amount of image added 2
+2018-04-24 15:18:28,627 INFO     image type:   <class 'list'>
+2018-04-24 15:18:28,628 INFO     image 584 Surprise
+2018-04-24 15:18:28,970 INFO     -------------------------------
+2018-04-24 15:18:28,970 INFO     ./cohn-kanade-images\S054\004\*.png
+2018-04-24 15:18:28,971 INFO     amount of image added 8
+2018-04-24 15:18:28,971 INFO     image type:   <class 'list'>
+2018-04-24 15:18:28,971 INFO     image 595 Disgust
+2018-04-24 15:18:29,222 INFO     -------------------------------
+2018-04-24 15:18:29,223 INFO     ./cohn-kanade-images\S055\001\*.png
+2018-04-24 15:18:29,224 INFO     amount of image added 4
+2018-04-24 15:18:29,225 INFO     image type:   <class 'list'>
+2018-04-24 15:18:29,225 INFO     image 602 Surprise
+2018-04-24 15:18:29,438 INFO     -------------------------------
+2018-04-24 15:18:29,439 INFO     ./cohn-kanade-images\S055\003\*.png
+2018-04-24 15:18:29,439 INFO     amount of image added 3
+2018-04-24 15:18:29,440 INFO     image type:   <class 'list'>
+2018-04-24 15:18:29,441 INFO     image 608 Disgust
+2018-04-24 15:18:29,819 INFO     -------------------------------
+2018-04-24 15:18:29,820 INFO     ./cohn-kanade-images\S055\004\*.png
+2018-04-24 15:18:29,821 INFO     amount of image added 9
+2018-04-24 15:18:29,821 INFO     image type:   <class 'list'>
+2018-04-24 15:18:29,821 INFO     image 620 Anger
+2018-04-24 15:18:30,323 INFO     -------------------------------
+2018-04-24 15:18:30,324 INFO     ./cohn-kanade-images\S055\005\*.png
+2018-04-24 15:18:30,324 INFO     amount of image added 15
+2018-04-24 15:18:30,324 INFO     image type:   <class 'list'>
+2018-04-24 15:18:30,325 INFO     image 638 Happy
+2018-04-24 15:18:30,539 INFO     -------------------------------
+2018-04-24 15:18:30,540 INFO     ./cohn-kanade-images\S055\006\*.png
+2018-04-24 15:18:30,540 INFO     amount of image added 3
+2018-04-24 15:18:30,541 INFO     image type:   <class 'list'>
+2018-04-24 15:18:30,541 INFO     image 644 Fear 
+2018-04-24 15:18:30,732 INFO     -------------------------------
+2018-04-24 15:18:30,732 INFO     ./cohn-kanade-images\S056\002\*.png
+2018-04-24 15:18:30,733 INFO     amount of image added 3
+2018-04-24 15:18:30,733 INFO     image type:   <class 'list'>
+2018-04-24 15:18:30,734 INFO     image 650 Disgust
+2018-04-24 15:18:30,919 INFO     -------------------------------
+2018-04-24 15:18:30,920 INFO     ./cohn-kanade-images\S056\003\*.png
+2018-04-24 15:18:30,920 INFO     amount of image added 3
+2018-04-24 15:18:30,921 INFO     image type:   <class 'list'>
+2018-04-24 15:18:30,921 INFO     image 656 Surprise
+2018-04-24 15:18:31,340 INFO     -------------------------------
+2018-04-24 15:18:31,340 INFO     ./cohn-kanade-images\S056\004\*.png
+2018-04-24 15:18:31,341 INFO     amount of image added 7
+2018-04-24 15:18:31,341 INFO     image type:   <class 'list'>
+2018-04-24 15:18:31,342 INFO     image 666 Happy
+2018-04-24 15:18:31,648 INFO     -------------------------------
+2018-04-24 15:18:31,648 INFO     ./cohn-kanade-images\S057\001\*.png
+2018-04-24 15:18:31,648 INFO     amount of image added 6
+2018-04-24 15:18:31,649 INFO     image type:   <class 'list'>
+2018-04-24 15:18:31,649 INFO     image 675 Surprise
+2018-04-24 15:18:31,896 INFO     -------------------------------
+2018-04-24 15:18:31,896 INFO     ./cohn-kanade-images\S057\003\*.png
+2018-04-24 15:18:31,897 INFO     amount of image added 5
+2018-04-24 15:18:31,897 INFO     image type:   <class 'list'>
+2018-04-24 15:18:31,897 INFO     image 683 Disgust
+2018-04-24 15:18:32,303 INFO     -------------------------------
+2018-04-24 15:18:32,304 INFO     ./cohn-kanade-images\S057\006\*.png
+2018-04-24 15:18:32,305 INFO     amount of image added 11
+2018-04-24 15:18:32,306 INFO     image type:   <class 'list'>
+2018-04-24 15:18:32,307 INFO     image 697 Happy
+2018-04-24 15:18:32,628 INFO     -------------------------------
+2018-04-24 15:18:32,629 INFO     ./cohn-kanade-images\S058\001\*.png
+2018-04-24 15:18:32,629 INFO     amount of image added 7
+2018-04-24 15:18:32,629 INFO     image type:   <class 'list'>
+2018-04-24 15:18:32,630 INFO     image 707 Surprise
+2018-04-24 15:18:32,766 INFO     -------------------------------
+2018-04-24 15:18:32,767 INFO     ./cohn-kanade-images\S058\005\*.png
+2018-04-24 15:18:32,767 INFO     amount of image added 3
+2018-04-24 15:18:32,767 INFO     image type:   <class 'list'>
+2018-04-24 15:18:32,768 INFO     image 713 Anger
+2018-04-24 15:18:32,989 INFO     -------------------------------
+2018-04-24 15:18:32,989 INFO     ./cohn-kanade-images\S058\006\*.png
+2018-04-24 15:18:32,990 INFO     amount of image added 6
+2018-04-24 15:18:32,990 INFO     image type:   <class 'list'>
+2018-04-24 15:18:32,990 INFO     image 722 Disgust
+2018-04-24 15:18:33,319 INFO     -------------------------------
+2018-04-24 15:18:33,319 INFO     ./cohn-kanade-images\S059\001\*.png
+2018-04-24 15:18:33,319 INFO     amount of image added 6
+2018-04-24 15:18:33,320 INFO     image type:   <class 'list'>
+2018-04-24 15:18:33,320 INFO     image 731 Surprise
+2018-04-24 15:18:33,583 INFO     -------------------------------
+2018-04-24 15:18:33,583 INFO     ./cohn-kanade-images\S059\002\*.png
+2018-04-24 15:18:33,584 INFO     amount of image added 6
+2018-04-24 15:18:33,584 INFO     image type:   <class 'list'>
+2018-04-24 15:18:33,584 INFO     image 740 Fear 
+2018-04-24 15:18:33,971 INFO     -------------------------------
+2018-04-24 15:18:33,972 INFO     ./cohn-kanade-images\S060\002\*.png
+2018-04-24 15:18:33,973 INFO     amount of image added 9
+2018-04-24 15:18:33,973 INFO     image type:   <class 'list'>
+2018-04-24 15:18:33,973 INFO     image 752 Happy
+2018-04-24 15:18:34,161 INFO     -------------------------------
+2018-04-24 15:18:34,161 INFO     ./cohn-kanade-images\S060\003\*.png
+2018-04-24 15:18:34,162 INFO     amount of image added 6
+2018-04-24 15:18:34,162 INFO     image type:   <class 'list'>
+2018-04-24 15:18:34,162 INFO     image 761 Surprise
+2018-04-24 15:18:34,414 INFO     -------------------------------
+2018-04-24 15:18:34,414 INFO     ./cohn-kanade-images\S060\005\*.png
+2018-04-24 15:18:34,415 INFO     amount of image added 7
+2018-04-24 15:18:34,415 INFO     image type:   <class 'list'>
+2018-04-24 15:18:34,415 INFO     image 771 Disgust
+2018-04-24 15:18:34,635 INFO     -------------------------------
+2018-04-24 15:18:34,635 INFO     ./cohn-kanade-images\S061\001\*.png
+2018-04-24 15:18:34,636 INFO     amount of image added 4
+2018-04-24 15:18:34,636 INFO     image type:   <class 'list'>
+2018-04-24 15:18:34,636 INFO     image 778 Surprise
+2018-04-24 15:18:34,897 INFO     -------------------------------
+2018-04-24 15:18:34,897 INFO     ./cohn-kanade-images\S061\002\*.png
+2018-04-24 15:18:34,898 INFO     amount of image added 5
+2018-04-24 15:18:34,898 INFO     image type:   <class 'list'>
+2018-04-24 15:18:34,898 INFO     image 786 Happy
+2018-04-24 15:18:35,177 INFO     -------------------------------
+2018-04-24 15:18:35,178 INFO     ./cohn-kanade-images\S061\004\*.png
+2018-04-24 15:18:35,179 INFO     amount of image added 7
+2018-04-24 15:18:35,179 INFO     image type:   <class 'list'>
+2018-04-24 15:18:35,179 INFO     image 796 Disgust
+2018-04-24 15:18:35,450 INFO     -------------------------------
+2018-04-24 15:18:35,450 INFO     ./cohn-kanade-images\S062\001\*.png
+2018-04-24 15:18:35,451 INFO     amount of image added 6
+2018-04-24 15:18:35,451 INFO     image type:   <class 'list'>
+2018-04-24 15:18:35,452 INFO     image 805 Fear 
+2018-04-24 15:18:35,674 INFO     -------------------------------
+2018-04-24 15:18:35,675 INFO     ./cohn-kanade-images\S062\002\*.png
+2018-04-24 15:18:35,675 INFO     amount of image added 5
+2018-04-24 15:18:35,675 INFO     image type:   <class 'list'>
+2018-04-24 15:18:35,676 INFO     image 813 Surprise
+2018-04-24 15:18:36,072 INFO     -------------------------------
+2018-04-24 15:18:36,072 INFO     ./cohn-kanade-images\S062\004\*.png
+2018-04-24 15:18:36,073 INFO     amount of image added 8
+2018-04-24 15:18:36,073 INFO     image type:   <class 'list'>
+2018-04-24 15:18:36,073 INFO     image 824 Happy
+2018-04-24 15:18:36,435 INFO     -------------------------------
+2018-04-24 15:18:36,436 INFO     ./cohn-kanade-images\S062\005\*.png
+2018-04-24 15:18:36,436 INFO     amount of image added 10
+2018-04-24 15:18:36,437 INFO     image type:   <class 'list'>
+2018-04-24 15:18:36,437 INFO     image 837 Disgust
+2018-04-24 15:18:36,624 INFO     -------------------------------
+2018-04-24 15:18:36,624 INFO     ./cohn-kanade-images\S063\001\*.png
+2018-04-24 15:18:36,625 INFO     amount of image added 4
+2018-04-24 15:18:36,625 INFO     image type:   <class 'list'>
+2018-04-24 15:18:36,625 INFO     image 844 Surprise
+2018-04-24 15:18:36,927 INFO     -------------------------------
+2018-04-24 15:18:36,928 INFO     ./cohn-kanade-images\S063\002\*.png
+2018-04-24 15:18:36,928 INFO     amount of image added 8
+2018-04-24 15:18:36,928 INFO     image type:   <class 'list'>
+2018-04-24 15:18:36,928 INFO     image 855 Happy
+2018-04-24 15:18:37,159 INFO     -------------------------------
+2018-04-24 15:18:37,160 INFO     ./cohn-kanade-images\S064\001\*.png
+2018-04-24 15:18:37,160 INFO     amount of image added 4
+2018-04-24 15:18:37,160 INFO     image type:   <class 'list'>
+2018-04-24 15:18:37,161 INFO     image 862 Surprise
+2018-04-24 15:18:37,515 INFO     -------------------------------
+2018-04-24 15:18:37,516 INFO     ./cohn-kanade-images\S064\003\*.png
+2018-04-24 15:18:37,516 INFO     amount of image added 8
+2018-04-24 15:18:37,517 INFO     image type:   <class 'list'>
+2018-04-24 15:18:37,517 INFO     image 873 Happy
+2018-04-24 15:18:37,694 INFO     -------------------------------
+2018-04-24 15:18:37,695 INFO     ./cohn-kanade-images\S064\004\*.png
+2018-04-24 15:18:37,695 INFO     amount of image added 5
+2018-04-24 15:18:37,695 INFO     image type:   <class 'list'>
+2018-04-24 15:18:37,695 INFO     image 881 Saddness
+2018-04-24 15:18:37,959 INFO     -------------------------------
+2018-04-24 15:18:37,960 INFO     ./cohn-kanade-images\S065\002\*.png
+2018-04-24 15:18:37,960 INFO     amount of image added 7
+2018-04-24 15:18:37,960 INFO     image type:   <class 'list'>
+2018-04-24 15:18:37,961 INFO     image 891 Fear 
+2018-04-24 15:18:38,298 INFO     -------------------------------
+2018-04-24 15:18:38,298 INFO     ./cohn-kanade-images\S065\003\*.png
+2018-04-24 15:18:38,299 INFO     amount of image added 7
+2018-04-24 15:18:38,299 INFO     image type:   <class 'list'>
+2018-04-24 15:18:38,299 INFO     image 901 Surprise
+2018-04-24 15:18:38,685 INFO     -------------------------------
+2018-04-24 15:18:38,686 INFO     ./cohn-kanade-images\S065\004\*.png
+2018-04-24 15:18:38,686 INFO     amount of image added 9
+2018-04-24 15:18:38,687 INFO     image type:   <class 'list'>
+2018-04-24 15:18:38,687 INFO     image 913 Happy
+2018-04-24 15:18:39,315 INFO     -------------------------------
+2018-04-24 15:18:39,316 INFO     ./cohn-kanade-images\S065\005\*.png
+2018-04-24 15:18:39,316 INFO     amount of image added 3
+2018-04-24 15:18:39,317 INFO     image type:   <class 'list'>
+2018-04-24 15:18:39,318 INFO     image 919 Disgust
+2018-04-24 15:18:39,875 INFO     -------------------------------
+2018-04-24 15:18:39,875 INFO     ./cohn-kanade-images\S066\002\*.png
+2018-04-24 15:18:39,876 INFO     amount of image added 7
+2018-04-24 15:18:39,876 INFO     image type:   <class 'list'>
+2018-04-24 15:18:39,876 INFO     image 929 Surprise
+2018-04-24 15:18:40,124 INFO     -------------------------------
+2018-04-24 15:18:40,124 INFO     ./cohn-kanade-images\S066\003\*.png
+2018-04-24 15:18:40,125 INFO     amount of image added 4
+2018-04-24 15:18:40,125 INFO     image type:   <class 'list'>
+2018-04-24 15:18:40,125 INFO     image 936 Happy
+2018-04-24 15:18:40,281 INFO     -------------------------------
+2018-04-24 15:18:40,281 INFO     ./cohn-kanade-images\S066\004\*.png
+2018-04-24 15:18:40,282 INFO     amount of image added 3
+2018-04-24 15:18:40,282 INFO     image type:   <class 'list'>
+2018-04-24 15:18:40,282 INFO     image 942 Saddness
+2018-04-24 15:18:40,431 INFO     -------------------------------
+2018-04-24 15:18:40,432 INFO     ./cohn-kanade-images\S066\005\*.png
+2018-04-24 15:18:40,432 INFO     amount of image added 4
+2018-04-24 15:18:40,432 INFO     image type:   <class 'list'>
+2018-04-24 15:18:40,433 INFO     image 949 Anger
+2018-04-24 15:18:40,670 INFO     -------------------------------
+2018-04-24 15:18:40,671 INFO     ./cohn-kanade-images\S067\002\*.png
+2018-04-24 15:18:40,672 INFO     amount of image added 5
+2018-04-24 15:18:40,672 INFO     image type:   <class 'list'>
+2018-04-24 15:18:40,672 INFO     image 957 Surprise
+2018-04-24 15:18:41,011 INFO     -------------------------------
+2018-04-24 15:18:41,013 INFO     ./cohn-kanade-images\S067\004\*.png
+2018-04-24 15:18:41,013 INFO     amount of image added 8
+2018-04-24 15:18:41,014 INFO     image type:   <class 'list'>
+2018-04-24 15:18:41,014 INFO     image 968 Anger
+2018-04-24 15:18:41,284 INFO     -------------------------------
+2018-04-24 15:18:41,285 INFO     ./cohn-kanade-images\S067\005\*.png
+2018-04-24 15:18:41,285 INFO     amount of image added 7
+2018-04-24 15:18:41,285 INFO     image type:   <class 'list'>
+2018-04-24 15:18:41,285 INFO     image 978 Happy
+2018-04-24 15:18:41,486 INFO     -------------------------------
+2018-04-24 15:18:41,487 INFO     ./cohn-kanade-images\S067\006\*.png
+2018-04-24 15:18:41,487 INFO     amount of image added 4
+2018-04-24 15:18:41,488 INFO     image type:   <class 'list'>
+2018-04-24 15:18:41,488 INFO     image 985 Disgust
+2018-04-24 15:18:41,711 INFO     -------------------------------
+2018-04-24 15:18:41,711 INFO     ./cohn-kanade-images\S068\002\*.png
+2018-04-24 15:18:41,712 INFO     amount of image added 5
+2018-04-24 15:18:41,712 INFO     image type:   <class 'list'>
+2018-04-24 15:18:41,712 INFO     image 993 Happy
+2018-04-24 15:18:41,940 INFO     -------------------------------
+2018-04-24 15:18:41,941 INFO     ./cohn-kanade-images\S068\003\*.png
+2018-04-24 15:18:41,941 INFO     amount of image added 5
+2018-04-24 15:18:41,941 INFO     image type:   <class 'list'>
+2018-04-24 15:18:41,942 INFO     image 1001 Surprise
+2018-04-24 15:18:42,106 INFO     -------------------------------
+2018-04-24 15:18:42,107 INFO     ./cohn-kanade-images\S068\004\*.png
+2018-04-24 15:18:42,107 INFO     amount of image added 3
+2018-04-24 15:18:42,108 INFO     image type:   <class 'list'>
+2018-04-24 15:18:42,108 INFO     image 1007 Fear 
+2018-04-24 15:18:42,385 INFO     -------------------------------
+2018-04-24 15:18:42,385 INFO     ./cohn-kanade-images\S068\005\*.png
+2018-04-24 15:18:42,386 INFO     amount of image added 7
+2018-04-24 15:18:42,386 INFO     image type:   <class 'list'>
+2018-04-24 15:18:42,386 INFO     image 1017 Disgust
+2018-04-24 15:18:42,790 INFO     -------------------------------
+2018-04-24 15:18:42,790 INFO     ./cohn-kanade-images\S069\002\*.png
+2018-04-24 15:18:42,790 INFO     amount of image added 5
+2018-04-24 15:18:42,791 INFO     image type:   <class 'list'>
+2018-04-24 15:18:42,791 INFO     image 1025 Surprise
+2018-04-24 15:18:43,219 INFO     -------------------------------
+2018-04-24 15:18:43,220 INFO     ./cohn-kanade-images\S069\003\*.png
+2018-04-24 15:18:43,221 INFO     amount of image added 4
+2018-04-24 15:18:43,222 INFO     image type:   <class 'list'>
+2018-04-24 15:18:43,223 INFO     image 1032 Disgust
+2018-04-24 15:18:43,543 INFO     -------------------------------
+2018-04-24 15:18:43,544 INFO     ./cohn-kanade-images\S069\004\*.png
+2018-04-24 15:18:43,545 INFO     amount of image added 6
+2018-04-24 15:18:43,545 INFO     image type:   <class 'list'>
+2018-04-24 15:18:43,545 INFO     image 1041 Happy
+2018-04-24 15:18:44,140 INFO     -------------------------------
+2018-04-24 15:18:44,140 INFO     ./cohn-kanade-images\S070\002\*.png
+2018-04-24 15:18:44,141 INFO     amount of image added 5
+2018-04-24 15:18:44,141 INFO     image type:   <class 'list'>
+2018-04-24 15:18:44,142 INFO     image 1049 Surprise
+2018-04-24 15:18:44,599 INFO     -------------------------------
+2018-04-24 15:18:44,599 INFO     ./cohn-kanade-images\S070\003\*.png
+2018-04-24 15:18:44,600 INFO     amount of image added 6
+2018-04-24 15:18:44,600 INFO     image type:   <class 'list'>
+2018-04-24 15:18:44,600 INFO     image 1058 Happy
+2018-04-24 15:18:45,118 INFO     -------------------------------
+2018-04-24 15:18:45,119 INFO     ./cohn-kanade-images\S070\005\*.png
+2018-04-24 15:18:45,119 INFO     amount of image added 5
+2018-04-24 15:18:45,119 INFO     image type:   <class 'list'>
+2018-04-24 15:18:45,120 INFO     image 1066 Disgust
+2018-04-24 15:18:45,389 INFO     -------------------------------
+2018-04-24 15:18:45,390 INFO     ./cohn-kanade-images\S071\001\*.png
+2018-04-24 15:18:45,390 INFO     amount of image added 4
+2018-04-24 15:18:45,391 INFO     image type:   <class 'list'>
+2018-04-24 15:18:45,391 INFO     image 1073 Surprise
+2018-04-24 15:18:45,811 INFO     -------------------------------
+2018-04-24 15:18:45,812 INFO     ./cohn-kanade-images\S071\002\*.png
+2018-04-24 15:18:45,812 INFO     amount of image added 7
+2018-04-24 15:18:45,813 INFO     image type:   <class 'list'>
+2018-04-24 15:18:45,813 INFO     image 1083 Saddness
+2018-04-24 15:18:46,656 INFO     -------------------------------
+2018-04-24 15:18:46,657 INFO     ./cohn-kanade-images\S071\004\*.png
+2018-04-24 15:18:46,657 INFO     amount of image added 9
+2018-04-24 15:18:46,658 INFO     image type:   <class 'list'>
+2018-04-24 15:18:46,658 INFO     image 1095 Anger
+2018-04-24 15:18:47,810 INFO     -------------------------------
+2018-04-24 15:18:47,810 INFO     ./cohn-kanade-images\S071\005\*.png
+2018-04-24 15:18:47,811 INFO     amount of image added 7
+2018-04-24 15:18:47,811 INFO     image type:   <class 'list'>
+2018-04-24 15:18:47,811 INFO     image 1105 Happy
+2018-04-24 15:18:48,608 INFO     -------------------------------
+2018-04-24 15:18:48,608 INFO     ./cohn-kanade-images\S071\006\*.png
+2018-04-24 15:18:48,609 INFO     amount of image added 5
+2018-04-24 15:18:48,609 INFO     image type:   <class 'list'>
+2018-04-24 15:18:48,609 INFO     image 1113 Disgust
+2018-04-24 15:18:49,252 INFO     -------------------------------
+2018-04-24 15:18:49,252 INFO     ./cohn-kanade-images\S072\005\*.png
+2018-04-24 15:18:49,253 INFO     amount of image added 6
+2018-04-24 15:18:49,253 INFO     image type:   <class 'list'>
+2018-04-24 15:18:49,253 INFO     image 1122 Anger
+2018-04-24 15:18:49,894 INFO     -------------------------------
+2018-04-24 15:18:49,894 INFO     ./cohn-kanade-images\S072\006\*.png
+2018-04-24 15:18:49,895 INFO     amount of image added 7
+2018-04-24 15:18:49,895 INFO     image type:   <class 'list'>
+2018-04-24 15:18:49,895 INFO     image 1132 Happy
+2018-04-24 15:18:50,294 INFO     40subjects loaded
+2018-04-24 15:18:51,297 INFO     Maximum memory usage: [462.27734375, 462.28125, 462.28125, 462.28125, 462.28125]
+2018-04-24 15:18:51,298 INFO     -------------------------------
+2018-04-24 15:18:51,299 INFO     Maximum memory usage: [462.27734375, 462.28125, 462.28125, 462.28125, 462.28125]
+2018-04-24 15:18:51,299 INFO     amount of image added 4
+2018-04-24 15:18:51,299 INFO     image type:   <class 'list'>
+2018-04-24 15:18:51,299 INFO     image 1139 Surprise
+2018-04-24 15:18:51,549 INFO     40subjects loaded
+2018-04-24 15:18:52,552 INFO     Maximum memory usage: [466.5859375, 466.58984375, 466.58984375, 466.58984375, 466.58984375]
+2018-04-24 15:18:52,553 INFO     -------------------------------
+2018-04-24 15:18:52,554 INFO     Maximum memory usage: [466.5859375, 466.58984375, 466.58984375, 466.58984375, 466.58984375]
+2018-04-24 15:18:52,554 INFO     amount of image added 5
+2018-04-24 15:18:52,554 INFO     image type:   <class 'list'>
+2018-04-24 15:18:52,554 INFO     image 1147 Disgust
+2018-04-24 15:18:52,860 INFO     -------------------------------
+2018-04-24 15:18:52,860 INFO     ./cohn-kanade-images\S074\001\*.png
+2018-04-24 15:18:52,861 INFO     amount of image added 7
+2018-04-24 15:18:52,861 INFO     image type:   <class 'list'>
+2018-04-24 15:18:52,861 INFO     image 1157 Fear 
+2018-04-24 15:18:53,144 INFO     -------------------------------
+2018-04-24 15:18:53,145 INFO     ./cohn-kanade-images\S074\002\*.png
+2018-04-24 15:18:53,145 INFO     amount of image added 5
+2018-04-24 15:18:53,145 INFO     image type:   <class 'list'>
+2018-04-24 15:18:53,145 INFO     image 1165 Surprise
+2018-04-24 15:18:53,424 INFO     -------------------------------
+2018-04-24 15:18:53,424 INFO     ./cohn-kanade-images\S074\004\*.png
+2018-04-24 15:18:53,424 INFO     amount of image added 6
+2018-04-24 15:18:53,424 INFO     image type:   <class 'list'>
+2018-04-24 15:18:53,425 INFO     image 1174 Disgust
+2018-04-24 15:18:53,864 INFO     -------------------------------
+2018-04-24 15:18:53,865 INFO     ./cohn-kanade-images\S074\005\*.png
+2018-04-24 15:18:53,865 INFO     amount of image added 14
+2018-04-24 15:18:53,865 INFO     image type:   <class 'list'>
+2018-04-24 15:18:53,866 INFO     image 1191 Happy
+2018-04-24 15:18:54,115 INFO     -------------------------------
+2018-04-24 15:18:54,116 INFO     ./cohn-kanade-images\S075\002\*.png
+2018-04-24 15:18:54,116 INFO     amount of image added 5
+2018-04-24 15:18:54,116 INFO     image type:   <class 'list'>
+2018-04-24 15:18:54,117 INFO     image 1199 Surprise
+2018-04-24 15:18:54,371 INFO     -------------------------------
+2018-04-24 15:18:54,372 INFO     ./cohn-kanade-images\S075\005\*.png
+2018-04-24 15:18:54,372 INFO     amount of image added 4
+2018-04-24 15:18:54,373 INFO     image type:   <class 'list'>
+2018-04-24 15:18:54,373 INFO     image 1206 Disgust
+2018-04-24 15:18:54,865 INFO     -------------------------------
+2018-04-24 15:18:54,866 INFO     ./cohn-kanade-images\S075\006\*.png
+2018-04-24 15:18:54,866 INFO     amount of image added 8
+2018-04-24 15:18:54,867 INFO     image type:   <class 'list'>
+2018-04-24 15:18:54,867 INFO     image 1217 Happy
+2018-04-24 15:18:55,080 INFO     -------------------------------
+2018-04-24 15:18:55,081 INFO     ./cohn-kanade-images\S075\008\*.png
+2018-04-24 15:18:55,081 INFO     amount of image added 4
+2018-04-24 15:18:55,081 INFO     image type:   <class 'list'>
+2018-04-24 15:18:55,082 INFO     image 1224 Anger
+2018-04-24 15:18:55,857 INFO     -------------------------------
+2018-04-24 15:18:55,857 INFO     ./cohn-kanade-images\S076\001\*.png
+2018-04-24 15:18:55,858 INFO     amount of image added 6
+2018-04-24 15:18:55,858 INFO     image type:   <class 'list'>
+2018-04-24 15:18:55,859 INFO     image 1233 Surprise
+2018-04-24 15:18:56,219 INFO     -------------------------------
+2018-04-24 15:18:56,219 INFO     ./cohn-kanade-images\S076\005\*.png
+2018-04-24 15:18:56,220 INFO     amount of image added 4
+2018-04-24 15:18:56,220 INFO     image type:   <class 'list'>
+2018-04-24 15:18:56,221 INFO     image 1240 Disgust
+2018-04-24 15:18:56,617 INFO     -------------------------------
+2018-04-24 15:18:56,618 INFO     ./cohn-kanade-images\S076\006\*.png
+2018-04-24 15:18:56,618 INFO     amount of image added 6
+2018-04-24 15:18:56,619 INFO     image type:   <class 'list'>
+2018-04-24 15:18:56,619 INFO     image 1249 Happy
+2018-04-24 15:18:57,070 INFO     -------------------------------
+2018-04-24 15:18:57,071 INFO     ./cohn-kanade-images\S077\001\*.png
+2018-04-24 15:18:57,072 INFO     amount of image added 9
+2018-04-24 15:18:57,072 INFO     image type:   <class 'list'>
+2018-04-24 15:18:57,072 INFO     image 1261 Surprise
+2018-04-24 15:18:57,483 INFO     -------------------------------
+2018-04-24 15:18:57,483 INFO     ./cohn-kanade-images\S077\006\*.png
+2018-04-24 15:18:57,484 INFO     amount of image added 5
+2018-04-24 15:18:57,485 INFO     image type:   <class 'list'>
+2018-04-24 15:18:57,485 INFO     image 1269 Disgust
+2018-04-24 15:18:58,076 INFO     -------------------------------
+2018-04-24 15:18:58,077 INFO     ./cohn-kanade-images\S078\001\*.png
+2018-04-24 15:18:58,077 INFO     amount of image added 11
+2018-04-24 15:18:58,078 INFO     image type:   <class 'list'>
+2018-04-24 15:18:58,078 INFO     image 1283 Surprise
+2018-04-24 15:18:58,551 INFO     -------------------------------
+2018-04-24 15:18:58,552 INFO     ./cohn-kanade-images\S078\004\*.png
+2018-04-24 15:18:58,553 INFO     amount of image added 9
+2018-04-24 15:18:58,553 INFO     image type:   <class 'list'>
+2018-04-24 15:18:58,553 INFO     image 1295 Happy
+2018-04-24 15:18:58,803 INFO     -------------------------------
+2018-04-24 15:18:58,804 INFO     ./cohn-kanade-images\S078\007\*.png
+2018-04-24 15:18:58,804 INFO     amount of image added 4
+2018-04-24 15:18:58,804 INFO     image type:   <class 'list'>
+2018-04-24 15:18:58,805 INFO     image 1302 Disgust
+2018-04-24 15:18:59,035 INFO     -------------------------------
+2018-04-24 15:18:59,036 INFO     ./cohn-kanade-images\S079\001\*.png
+2018-04-24 15:18:59,036 INFO     amount of image added 4
+2018-04-24 15:18:59,036 INFO     image type:   <class 'list'>
+2018-04-24 15:18:59,037 INFO     image 1309 Surprise
+2018-04-24 15:18:59,324 INFO     -------------------------------
+2018-04-24 15:18:59,325 INFO     ./cohn-kanade-images\S079\002\*.png
+2018-04-24 15:18:59,325 INFO     amount of image added 4
+2018-04-24 15:18:59,325 INFO     image type:   <class 'list'>
+2018-04-24 15:18:59,326 INFO     image 1316 Disgust
+2018-04-24 15:18:59,883 INFO     -------------------------------
+2018-04-24 15:18:59,884 INFO     ./cohn-kanade-images\S079\004\*.png
+2018-04-24 15:18:59,884 INFO     amount of image added 9
+2018-04-24 15:18:59,885 INFO     image type:   <class 'list'>
+2018-04-24 15:18:59,885 INFO     image 1328 Happy
+2018-04-24 15:19:00,185 INFO     -------------------------------
+2018-04-24 15:19:00,186 INFO     ./cohn-kanade-images\S080\001\*.png
+2018-04-24 15:19:00,186 INFO     amount of image added 6
+2018-04-24 15:19:00,187 INFO     image type:   <class 'list'>
+2018-04-24 15:19:00,187 INFO     image 1337 Surprise
+2018-04-24 15:19:00,525 INFO     -------------------------------
+2018-04-24 15:19:00,525 INFO     ./cohn-kanade-images\S080\005\*.png
+2018-04-24 15:19:00,526 INFO     amount of image added 4
+2018-04-24 15:19:00,527 INFO     image type:   <class 'list'>
+2018-04-24 15:19:00,527 INFO     image 1344 Saddness
+2018-04-24 15:19:00,757 INFO     -------------------------------
+2018-04-24 15:19:00,757 INFO     ./cohn-kanade-images\S080\008\*.png
+2018-04-24 15:19:00,758 INFO     amount of image added 3
+2018-04-24 15:19:00,758 INFO     image type:   <class 'list'>
+2018-04-24 15:19:00,758 INFO     image 1350 Disgust
+2018-04-24 15:19:01,275 INFO     -------------------------------
+2018-04-24 15:19:01,276 INFO     ./cohn-kanade-images\S081\001\*.png
+2018-04-24 15:19:01,276 INFO     amount of image added 6
+2018-04-24 15:19:01,276 INFO     image type:   <class 'list'>
+2018-04-24 15:19:01,277 INFO     image 1359 Surprise
+2018-04-24 15:19:01,792 INFO     -------------------------------
+2018-04-24 15:19:01,793 INFO     ./cohn-kanade-images\S081\002\*.png
+2018-04-24 15:19:01,793 INFO     amount of image added 8
+2018-04-24 15:19:01,793 INFO     image type:   <class 'list'>
+2018-04-24 15:19:01,794 INFO     image 1370 Saddness
+2018-04-24 15:19:02,052 INFO     -------------------------------
+2018-04-24 15:19:02,052 INFO     ./cohn-kanade-images\S081\008\*.png
+2018-04-24 15:19:02,052 INFO     amount of image added 4
+2018-04-24 15:19:02,053 INFO     image type:   <class 'list'>
+2018-04-24 15:19:02,053 INFO     image 1377 Disgust
+2018-04-24 15:19:02,346 INFO     -------------------------------
+2018-04-24 15:19:02,346 INFO     ./cohn-kanade-images\S082\001\*.png
+2018-04-24 15:19:02,347 INFO     amount of image added 5
+2018-04-24 15:19:02,347 INFO     image type:   <class 'list'>
+2018-04-24 15:19:02,347 INFO     image 1385 Surprise
+2018-04-24 15:19:02,736 INFO     -------------------------------
+2018-04-24 15:19:02,737 INFO     ./cohn-kanade-images\S082\005\*.png
+2018-04-24 15:19:02,737 INFO     amount of image added 6
+2018-04-24 15:19:02,737 INFO     image type:   <class 'list'>
+2018-04-24 15:19:02,738 INFO     image 1394 Anger
+2018-04-24 15:19:03,009 INFO     -------------------------------
+2018-04-24 15:19:03,009 INFO     ./cohn-kanade-images\S082\007\*.png
+2018-04-24 15:19:03,009 INFO     amount of image added 3
+2018-04-24 15:19:03,010 INFO     image type:   <class 'list'>
+2018-04-24 15:19:03,010 INFO     image 1400 Disgust
+2018-04-24 15:19:03,389 INFO     -------------------------------
+2018-04-24 15:19:03,389 INFO     ./cohn-kanade-images\S083\003\*.png
+2018-04-24 15:19:03,390 INFO     amount of image added 6
+2018-04-24 15:19:03,390 INFO     image type:   <class 'list'>
+2018-04-24 15:19:03,390 INFO     image 1409 Happy
+2018-04-24 15:19:03,668 INFO     -------------------------------
+2018-04-24 15:19:03,668 INFO     ./cohn-kanade-images\S084\001\*.png
+2018-04-24 15:19:03,668 INFO     amount of image added 3
+2018-04-24 15:19:03,669 INFO     image type:   <class 'list'>
+2018-04-24 15:19:03,669 INFO     image 1415 Surprise
+2018-04-24 15:19:04,160 INFO     -------------------------------
+2018-04-24 15:19:04,161 INFO     ./cohn-kanade-images\S084\002\*.png
+2018-04-24 15:19:04,162 INFO     amount of image added 8
+2018-04-24 15:19:04,162 INFO     image type:   <class 'list'>
+2018-04-24 15:19:04,162 INFO     image 1426 Fear 
+2018-04-24 15:19:04,510 INFO     -------------------------------
+2018-04-24 15:19:04,510 INFO     ./cohn-kanade-images\S085\002\*.png
+2018-04-24 15:19:04,511 INFO     amount of image added 5
+2018-04-24 15:19:04,511 INFO     image type:   <class 'list'>
+2018-04-24 15:19:04,511 INFO     image 1434 Happy
+2018-04-24 15:19:04,976 INFO     -------------------------------
+2018-04-24 15:19:04,976 INFO     ./cohn-kanade-images\S085\003\*.png
+2018-04-24 15:19:04,976 INFO     amount of image added 4
+2018-04-24 15:19:04,978 INFO     image type:   <class 'list'>
+2018-04-24 15:19:04,978 INFO     image 1441 Surprise
+2018-04-24 15:19:05,296 INFO     -------------------------------
+2018-04-24 15:19:05,297 INFO     ./cohn-kanade-images\S085\004\*.png
+2018-04-24 15:19:05,297 INFO     amount of image added 6
+2018-04-24 15:19:05,297 INFO     image type:   <class 'list'>
+2018-04-24 15:19:05,298 INFO     image 1450 Disgust
+2018-04-24 15:19:05,678 INFO     -------------------------------
+2018-04-24 15:19:05,679 INFO     ./cohn-kanade-images\S086\001\*.png
+2018-04-24 15:19:05,679 INFO     amount of image added 6
+2018-04-24 15:19:05,679 INFO     image type:   <class 'list'>
+2018-04-24 15:19:05,679 INFO     image 1459 Surprise
+2018-04-24 15:19:06,059 INFO     -------------------------------
+2018-04-24 15:19:06,059 INFO     ./cohn-kanade-images\S086\002\*.png
+2018-04-24 15:19:06,060 INFO     amount of image added 5
+2018-04-24 15:19:06,060 INFO     image type:   <class 'list'>
+2018-04-24 15:19:06,060 INFO     image 1467 Happy
+2018-04-24 15:19:06,327 INFO     -------------------------------
+2018-04-24 15:19:06,327 INFO     ./cohn-kanade-images\S087\001\*.png
+2018-04-24 15:19:06,328 INFO     amount of image added 4
+2018-04-24 15:19:06,328 INFO     image type:   <class 'list'>
+2018-04-24 15:19:06,328 INFO     image 1474 Surprise
+2018-04-24 15:19:06,704 INFO     -------------------------------
+2018-04-24 15:19:06,705 INFO     ./cohn-kanade-images\S087\004\*.png
+2018-04-24 15:19:06,706 INFO     amount of image added 4
+2018-04-24 15:19:06,706 INFO     image type:   <class 'list'>
+2018-04-24 15:19:06,707 INFO     image 1481 Disgust
+2018-04-24 15:19:07,040 INFO     -------------------------------
+2018-04-24 15:19:07,041 INFO     ./cohn-kanade-images\S087\005\*.png
+2018-04-24 15:19:07,042 INFO     amount of image added 4
+2018-04-24 15:19:07,042 INFO     image type:   <class 'list'>
+2018-04-24 15:19:07,042 INFO     image 1488 Happy
+2018-04-24 15:19:07,355 INFO     -------------------------------
+2018-04-24 15:19:07,355 INFO     ./cohn-kanade-images\S087\007\*.png
+2018-04-24 15:19:07,355 INFO     amount of image added 5
+2018-04-24 15:19:07,356 INFO     image type:   <class 'list'>
+2018-04-24 15:19:07,356 INFO     image 1496 Anger
+2018-04-24 15:19:07,674 INFO     -------------------------------
+2018-04-24 15:19:07,674 INFO     ./cohn-kanade-images\S088\001\*.png
+2018-04-24 15:19:07,675 INFO     amount of image added 6
+2018-04-24 15:19:07,675 INFO     image type:   <class 'list'>
+2018-04-24 15:19:07,675 INFO     image 1505 Surprise
+2018-04-24 15:19:08,101 INFO     -------------------------------
+2018-04-24 15:19:08,102 INFO     ./cohn-kanade-images\S088\004\*.png
+2018-04-24 15:19:08,103 INFO     amount of image added 7
+2018-04-24 15:19:08,103 INFO     image type:   <class 'list'>
+2018-04-24 15:19:08,103 INFO     image 1515 Disgust
+2018-04-24 15:19:08,433 INFO     -------------------------------
+2018-04-24 15:19:08,434 INFO     ./cohn-kanade-images\S089\001\*.png
+2018-04-24 15:19:08,434 INFO     amount of image added 5
+2018-04-24 15:19:08,434 INFO     image type:   <class 'list'>
+2018-04-24 15:19:08,434 INFO     image 1523 Surprise
+2018-04-24 15:19:09,139 INFO     -------------------------------
+2018-04-24 15:19:09,140 INFO     ./cohn-kanade-images\S089\002\*.png
+2018-04-24 15:19:09,140 INFO     amount of image added 7
+2018-04-24 15:19:09,141 INFO     image type:   <class 'list'>
+2018-04-24 15:19:09,141 INFO     image 1533 Happy
+2018-04-24 15:19:09,731 INFO     -------------------------------
+2018-04-24 15:19:09,731 INFO     ./cohn-kanade-images\S089\003\*.png
+2018-04-24 15:19:09,732 INFO     amount of image added 12
+2018-04-24 15:19:09,732 INFO     image type:   <class 'list'>
+2018-04-24 15:19:09,733 INFO     image 1548 Anger
+2018-04-24 15:19:10,048 INFO     -------------------------------
+2018-04-24 15:19:10,049 INFO     ./cohn-kanade-images\S090\002\*.png
+2018-04-24 15:19:10,049 INFO     amount of image added 4
+2018-04-24 15:19:10,049 INFO     image type:   <class 'list'>
+2018-04-24 15:19:10,050 INFO     image 1555 Surprise
+2018-04-24 15:19:10,328 INFO     -------------------------------
+2018-04-24 15:19:10,328 INFO     ./cohn-kanade-images\S090\006\*.png
+2018-04-24 15:19:10,328 INFO     amount of image added 4
+2018-04-24 15:19:10,329 INFO     image type:   <class 'list'>
+2018-04-24 15:19:10,329 INFO     image 1562 Disgust
+2018-04-24 15:19:10,634 INFO     -------------------------------
+2018-04-24 15:19:10,635 INFO     ./cohn-kanade-images\S090\007\*.png
+2018-04-24 15:19:10,635 INFO     amount of image added 5
+2018-04-24 15:19:10,636 INFO     image type:   <class 'list'>
+2018-04-24 15:19:10,636 INFO     image 1570 Anger
+2018-04-24 15:19:10,942 INFO     -------------------------------
+2018-04-24 15:19:10,942 INFO     ./cohn-kanade-images\S091\001\*.png
+2018-04-24 15:19:10,943 INFO     amount of image added 5
+2018-04-24 15:19:10,943 INFO     image type:   <class 'list'>
+2018-04-24 15:19:10,943 INFO     image 1578 Fear 
+2018-04-24 15:19:11,356 INFO     -------------------------------
+2018-04-24 15:19:11,356 INFO     ./cohn-kanade-images\S091\003\*.png
+2018-04-24 15:19:11,357 INFO     amount of image added 7
+2018-04-24 15:19:11,357 INFO     image type:   <class 'list'>
+2018-04-24 15:19:11,357 INFO     image 1588 Happy
+2018-04-24 15:19:11,671 INFO     -------------------------------
+2018-04-24 15:19:11,672 INFO     ./cohn-kanade-images\S092\001\*.png
+2018-04-24 15:19:11,672 INFO     amount of image added 6
+2018-04-24 15:19:11,672 INFO     image type:   <class 'list'>
+2018-04-24 15:19:11,673 INFO     image 1597 Surprise
+2018-04-24 15:19:12,020 INFO     -------------------------------
+2018-04-24 15:19:12,021 INFO     ./cohn-kanade-images\S092\003\*.png
+2018-04-24 15:19:12,021 INFO     amount of image added 5
+2018-04-24 15:19:12,022 INFO     image type:   <class 'list'>
+2018-04-24 15:19:12,022 INFO     image 1605 Anger
+2018-04-24 15:19:12,574 INFO     -------------------------------
+2018-04-24 15:19:12,575 INFO     ./cohn-kanade-images\S092\004\*.png
+2018-04-24 15:19:12,575 INFO     amount of image added 8
+2018-04-24 15:19:12,576 INFO     image type:   <class 'list'>
+2018-04-24 15:19:12,576 INFO     image 1616 Happy
+2018-04-24 15:19:13,022 INFO     60subjects loaded
+2018-04-24 15:19:14,025 INFO     Maximum memory usage: [618.6015625, 618.6015625, 618.60546875, 618.60546875, 618.60546875]
+2018-04-24 15:19:14,025 INFO     -------------------------------
+2018-04-24 15:19:14,026 INFO     Maximum memory usage: [618.6015625, 618.6015625, 618.60546875, 618.60546875, 618.60546875]
+2018-04-24 15:19:14,026 INFO     amount of image added 7
+2018-04-24 15:19:14,026 INFO     image type:   <class 'list'>
+2018-04-24 15:19:14,026 INFO     image 1626 Saddness
+2018-04-24 15:19:14,597 INFO     60subjects loaded
+2018-04-24 15:19:15,601 INFO     Maximum memory usage: [621.20703125, 621.20703125, 621.2109375, 621.2109375, 621.2109375]
+2018-04-24 15:19:15,602 INFO     -------------------------------
+2018-04-24 15:19:15,602 INFO     Maximum memory usage: [621.20703125, 621.20703125, 621.2109375, 621.2109375, 621.2109375]
+2018-04-24 15:19:15,603 INFO     amount of image added 5
+2018-04-24 15:19:15,604 INFO     image type:   <class 'list'>
+2018-04-24 15:19:15,604 INFO     image 1634 Happy
+2018-04-24 15:19:16,105 INFO     -------------------------------
+2018-04-24 15:19:16,105 INFO     ./cohn-kanade-images\S094\001\*.png
+2018-04-24 15:19:16,106 INFO     amount of image added 3
+2018-04-24 15:19:16,106 INFO     image type:   <class 'list'>
+2018-04-24 15:19:16,106 INFO     image 1640 Surprise
+2018-04-24 15:19:16,496 INFO     -------------------------------
+2018-04-24 15:19:16,535 INFO     ./cohn-kanade-images\S094\004\*.png
+2018-04-24 15:19:16,535 INFO     amount of image added 4
+2018-04-24 15:19:16,536 INFO     image type:   <class 'list'>
+2018-04-24 15:19:16,536 INFO     image 1647 Happy
+2018-04-24 15:19:16,892 INFO     -------------------------------
+2018-04-24 15:19:16,892 INFO     ./cohn-kanade-images\S095\001\*.png
+2018-04-24 15:19:16,893 INFO     amount of image added 5
+2018-04-24 15:19:16,893 INFO     image type:   <class 'list'>
+2018-04-24 15:19:16,893 INFO     image 1655 Surprise
+2018-04-24 15:19:17,206 INFO     -------------------------------
+2018-04-24 15:19:17,207 INFO     ./cohn-kanade-images\S095\006\*.png
+2018-04-24 15:19:17,207 INFO     amount of image added 4
+2018-04-24 15:19:17,208 INFO     image type:   <class 'list'>
+2018-04-24 15:19:17,208 INFO     image 1662 Disgust
+2018-04-24 15:19:17,575 INFO     -------------------------------
+2018-04-24 15:19:17,575 INFO     ./cohn-kanade-images\S095\007\*.png
+2018-04-24 15:19:17,576 INFO     amount of image added 7
+2018-04-24 15:19:17,576 INFO     image type:   <class 'list'>
+2018-04-24 15:19:17,576 INFO     image 1672 Happy
+2018-04-24 15:19:17,848 INFO     -------------------------------
+2018-04-24 15:19:17,849 INFO     ./cohn-kanade-images\S095\010\*.png
+2018-04-24 15:19:17,849 INFO     amount of image added 5
+2018-04-24 15:19:17,850 INFO     image type:   <class 'list'>
+2018-04-24 15:19:17,850 INFO     image 1680 Saddness
+2018-04-24 15:19:18,127 INFO     -------------------------------
+2018-04-24 15:19:18,128 INFO     ./cohn-kanade-images\S096\001\*.png
+2018-04-24 15:19:18,128 INFO     amount of image added 2
+2018-04-24 15:19:18,129 INFO     image type:   <class 'list'>
+2018-04-24 15:19:18,129 INFO     image 1685 Surprise
+2018-04-24 15:19:18,537 INFO     -------------------------------
+2018-04-24 15:19:18,538 INFO     ./cohn-kanade-images\S096\003\*.png
+2018-04-24 15:19:18,539 INFO     amount of image added 4
+2018-04-24 15:19:18,539 INFO     image type:   <class 'list'>
+2018-04-24 15:19:18,540 INFO     image 1692 Disgust
+2018-04-24 15:19:18,870 INFO     -------------------------------
+2018-04-24 15:19:18,871 INFO     ./cohn-kanade-images\S096\004\*.png
+2018-04-24 15:19:18,872 INFO     amount of image added 4
+2018-04-24 15:19:18,872 INFO     image type:   <class 'list'>
+2018-04-24 15:19:18,872 INFO     image 1699 Happy
+2018-04-24 15:19:19,227 INFO     -------------------------------
+2018-04-24 15:19:19,228 INFO     ./cohn-kanade-images\S097\001\*.png
+2018-04-24 15:19:19,228 INFO     amount of image added 7
+2018-04-24 15:19:19,228 INFO     image type:   <class 'list'>
+2018-04-24 15:19:19,228 INFO     image 1709 Surprise
+2018-04-24 15:19:19,814 INFO     -------------------------------
+2018-04-24 15:19:19,814 INFO     ./cohn-kanade-images\S097\004\*.png
+2018-04-24 15:19:19,815 INFO     amount of image added 10
+2018-04-24 15:19:19,815 INFO     image type:   <class 'list'>
+2018-04-24 15:19:19,816 INFO     image 1722 Disgust
+2018-04-24 15:19:20,586 INFO     -------------------------------
+2018-04-24 15:19:20,587 INFO     ./cohn-kanade-images\S097\006\*.png
+2018-04-24 15:19:20,588 INFO     amount of image added 6
+2018-04-24 15:19:20,588 INFO     image type:   <class 'list'>
+2018-04-24 15:19:20,589 INFO     image 1731 Happy
+2018-04-24 15:19:20,990 INFO     -------------------------------
+2018-04-24 15:19:20,990 INFO     ./cohn-kanade-images\S098\003\*.png
+2018-04-24 15:19:20,991 INFO     amount of image added 4
+2018-04-24 15:19:20,991 INFO     image type:   <class 'list'>
+2018-04-24 15:19:20,991 INFO     image 1738 Disgust
+2018-04-24 15:19:21,308 INFO     -------------------------------
+2018-04-24 15:19:21,308 INFO     ./cohn-kanade-images\S098\004\*.png
+2018-04-24 15:19:21,309 INFO     amount of image added 5
+2018-04-24 15:19:21,309 INFO     image type:   <class 'list'>
+2018-04-24 15:19:21,309 INFO     image 1746 Happy
+2018-04-24 15:19:21,649 INFO     -------------------------------
+2018-04-24 15:19:21,649 INFO     ./cohn-kanade-images\S099\001\*.png
+2018-04-24 15:19:21,650 INFO     amount of image added 5
+2018-04-24 15:19:21,650 INFO     image type:   <class 'list'>
+2018-04-24 15:19:21,650 INFO     image 1754 Surprise
+2018-04-24 15:19:22,002 INFO     -------------------------------
+2018-04-24 15:19:22,002 INFO     ./cohn-kanade-images\S099\004\*.png
+2018-04-24 15:19:22,003 INFO     amount of image added 5
+2018-04-24 15:19:22,003 INFO     image type:   <class 'list'>
+2018-04-24 15:19:22,003 INFO     image 1762 Happy
+2018-04-24 15:19:22,336 INFO     -------------------------------
+2018-04-24 15:19:22,337 INFO     ./cohn-kanade-images\S099\007\*.png
+2018-04-24 15:19:22,337 INFO     amount of image added 4
+2018-04-24 15:19:22,337 INFO     image type:   <class 'list'>
+2018-04-24 15:19:22,338 INFO     image 1769 Disgust
+2018-04-24 15:19:22,616 INFO     -------------------------------
+2018-04-24 15:19:22,617 INFO     ./cohn-kanade-images\S100\002\*.png
+2018-04-24 15:19:22,617 INFO     amount of image added 5
+2018-04-24 15:19:22,618 INFO     image type:   <class 'list'>
+2018-04-24 15:19:22,618 INFO     image 1777 Surprise
+2018-04-24 15:19:23,133 INFO     -------------------------------
+2018-04-24 15:19:23,134 INFO     ./cohn-kanade-images\S100\005\*.png
+2018-04-24 15:19:23,135 INFO     amount of image added 8
+2018-04-24 15:19:23,135 INFO     image type:   <class 'list'>
+2018-04-24 15:19:23,136 INFO     image 1788 Anger
+2018-04-24 15:19:23,443 INFO     -------------------------------
+2018-04-24 15:19:23,443 INFO     ./cohn-kanade-images\S100\006\*.png
+2018-04-24 15:19:23,443 INFO     amount of image added 5
+2018-04-24 15:19:23,444 INFO     image type:   <class 'list'>
+2018-04-24 15:19:23,444 INFO     image 1796 Happy
+2018-04-24 15:19:23,893 INFO     -------------------------------
+2018-04-24 15:19:23,893 INFO     ./cohn-kanade-images\S101\002\*.png
+2018-04-24 15:19:23,893 INFO     amount of image added 6
+2018-04-24 15:19:23,894 INFO     image type:   <class 'list'>
+2018-04-24 15:19:23,894 INFO     image 1805 Surprise
+2018-04-24 15:19:24,319 INFO     -------------------------------
+2018-04-24 15:19:24,320 INFO     ./cohn-kanade-images\S102\002\*.png
+2018-04-24 15:19:24,321 INFO     amount of image added 6
+2018-04-24 15:19:24,321 INFO     image type:   <class 'list'>
+2018-04-24 15:19:24,321 INFO     image 1814 Surprise
+2018-04-24 15:19:24,691 INFO     -------------------------------
+2018-04-24 15:19:24,691 INFO     ./cohn-kanade-images\S102\003\*.png
+2018-04-24 15:19:24,691 INFO     amount of image added 5
+2018-04-24 15:19:24,693 INFO     image type:   <class 'list'>
+2018-04-24 15:19:24,693 INFO     image 1822 Fear 
+2018-04-24 15:19:24,983 INFO     -------------------------------
+2018-04-24 15:19:24,983 INFO     ./cohn-kanade-images\S102\009\*.png
+2018-04-24 15:19:24,983 INFO     amount of image added 5
+2018-04-24 15:19:24,984 INFO     image type:   <class 'list'>
+2018-04-24 15:19:24,984 INFO     image 1830 Disgust
+2018-04-24 15:19:25,288 INFO     -------------------------------
+2018-04-24 15:19:25,289 INFO     ./cohn-kanade-images\S105\008\*.png
+2018-04-24 15:19:25,289 INFO     amount of image added 3
+2018-04-24 15:19:25,289 INFO     image type:   <class 'list'>
+2018-04-24 15:19:25,289 INFO     image 1836 Disgust
+2018-04-24 15:19:25,698 INFO     -------------------------------
+2018-04-24 15:19:25,699 INFO     ./cohn-kanade-images\S106\002\*.png
+2018-04-24 15:19:25,700 INFO     amount of image added 5
+2018-04-24 15:19:25,701 INFO     image type:   <class 'list'>
+2018-04-24 15:19:25,702 INFO     image 1844 Saddness
+2018-04-24 15:19:26,080 INFO     -------------------------------
+2018-04-24 15:19:26,081 INFO     ./cohn-kanade-images\S106\004\*.png
+2018-04-24 15:19:26,081 INFO     amount of image added 3
+2018-04-24 15:19:26,081 INFO     image type:   <class 'list'>
+2018-04-24 15:19:26,081 INFO     image 1850 Disgust
+2018-04-24 15:19:26,345 INFO     -------------------------------
+2018-04-24 15:19:26,345 INFO     ./cohn-kanade-images\S106\006\*.png
+2018-04-24 15:19:26,346 INFO     amount of image added 4
+2018-04-24 15:19:26,346 INFO     image type:   <class 'list'>
+2018-04-24 15:19:26,346 INFO     image 1857 Happy
+2018-04-24 15:19:26,873 INFO     -------------------------------
+2018-04-24 15:19:26,874 INFO     ./cohn-kanade-images\S107\001\*.png
+2018-04-24 15:19:26,874 INFO     amount of image added 3
+2018-04-24 15:19:26,874 INFO     image type:   <class 'list'>
+2018-04-24 15:19:26,875 INFO     image 1863 Surprise
+2018-04-24 15:19:27,610 INFO     -------------------------------
+2018-04-24 15:19:27,623 INFO     ./cohn-kanade-images\S107\005\*.png
+2018-04-24 15:19:27,623 INFO     amount of image added 4
+2018-04-24 15:19:27,624 INFO     image type:   <class 'list'>
+2018-04-24 15:19:27,624 INFO     image 1870 Disgust
+2018-04-24 15:19:28,285 INFO     -------------------------------
+2018-04-24 15:19:28,287 INFO     ./cohn-kanade-images\S108\005\*.png
+2018-04-24 15:19:28,287 INFO     amount of image added 7
+2018-04-24 15:19:28,287 INFO     image type:   <class 'list'>
+2018-04-24 15:19:28,288 INFO     image 1880 Saddness
+2018-04-24 15:19:28,704 INFO     -------------------------------
+2018-04-24 15:19:28,704 INFO     ./cohn-kanade-images\S108\006\*.png
+2018-04-24 15:19:28,705 INFO     amount of image added 7
+2018-04-24 15:19:28,705 INFO     image type:   <class 'list'>
+2018-04-24 15:19:28,706 INFO     image 1890 Disgust
+2018-04-24 15:19:29,058 INFO     -------------------------------
+2018-04-24 15:19:29,058 INFO     ./cohn-kanade-images\S108\008\*.png
+2018-04-24 15:19:29,058 INFO     amount of image added 4
+2018-04-24 15:19:29,058 INFO     image type:   <class 'list'>
+2018-04-24 15:19:29,059 INFO     image 1897 Happy
+2018-04-24 15:19:29,494 INFO     -------------------------------
+2018-04-24 15:19:29,495 INFO     ./cohn-kanade-images\S109\003\*.png
+2018-04-24 15:19:29,495 INFO     amount of image added 6
+2018-04-24 15:19:29,496 INFO     image type:   <class 'list'>
+2018-04-24 15:19:29,496 INFO     image 1906 Anger
+2018-04-24 15:19:29,900 INFO     -------------------------------
+2018-04-24 15:19:29,900 INFO     ./cohn-kanade-images\S109\005\*.png
+2018-04-24 15:19:29,901 INFO     amount of image added 5
+2018-04-24 15:19:29,901 INFO     image type:   <class 'list'>
+2018-04-24 15:19:29,902 INFO     image 1914 Disgust
+2018-04-24 15:19:30,225 INFO     -------------------------------
+2018-04-24 15:19:30,225 INFO     ./cohn-kanade-images\S109\006\*.png
+2018-04-24 15:19:30,226 INFO     amount of image added 5
+2018-04-24 15:19:30,226 INFO     image type:   <class 'list'>
+2018-04-24 15:19:30,227 INFO     image 1922 Happy
+2018-04-24 15:19:30,583 INFO     -------------------------------
+2018-04-24 15:19:30,584 INFO     ./cohn-kanade-images\S110\001\*.png
+2018-04-24 15:19:30,584 INFO     amount of image added 4
+2018-04-24 15:19:30,585 INFO     image type:   <class 'list'>
+2018-04-24 15:19:30,585 INFO     image 1929 Surprise
+2018-04-24 15:19:30,940 INFO     -------------------------------
+2018-04-24 15:19:30,940 INFO     ./cohn-kanade-images\S111\001\*.png
+2018-04-24 15:19:30,941 INFO     amount of image added 5
+2018-04-24 15:19:30,941 INFO     image type:   <class 'list'>
+2018-04-24 15:19:30,941 INFO     image 1937 Surprise
+2018-04-24 15:19:31,275 INFO     -------------------------------
+2018-04-24 15:19:31,275 INFO     ./cohn-kanade-images\S111\006\*.png
+2018-04-24 15:19:31,276 INFO     amount of image added 3
+2018-04-24 15:19:31,276 INFO     image type:   <class 'list'>
+2018-04-24 15:19:31,276 INFO     image 1943 Anger
+2018-04-24 15:19:31,542 INFO     -------------------------------
+2018-04-24 15:19:31,543 INFO     ./cohn-kanade-images\S111\007\*.png
+2018-04-24 15:19:31,543 INFO     amount of image added 5
+2018-04-24 15:19:31,544 INFO     image type:   <class 'list'>
+2018-04-24 15:19:31,544 INFO     image 1951 Disgust
+2018-04-24 15:19:31,907 INFO     -------------------------------
+2018-04-24 15:19:31,908 INFO     ./cohn-kanade-images\S112\005\*.png
+2018-04-24 15:19:31,909 INFO     amount of image added 6
+2018-04-24 15:19:31,910 INFO     image type:   <class 'list'>
+2018-04-24 15:19:31,910 INFO     image 1960 Anger
+2018-04-24 15:19:32,347 INFO     -------------------------------
+2018-04-24 15:19:32,348 INFO     ./cohn-kanade-images\S113\001\*.png
+2018-04-24 15:19:32,348 INFO     amount of image added 4
+2018-04-24 15:19:32,349 INFO     image type:   <class 'list'>
+2018-04-24 15:19:32,349 INFO     image 1967 Surprise
+2018-04-24 15:19:32,687 INFO     -------------------------------
+2018-04-24 15:19:32,688 INFO     ./cohn-kanade-images\S113\003\*.png
+2018-04-24 15:19:32,688 INFO     amount of image added 5
+2018-04-24 15:19:32,689 INFO     image type:   <class 'list'>
+2018-04-24 15:19:32,689 INFO     image 1975 Saddness
+2018-04-24 15:19:33,198 INFO     -------------------------------
+2018-04-24 15:19:33,199 INFO     ./cohn-kanade-images\S113\008\*.png
+2018-04-24 15:19:33,200 INFO     amount of image added 8
+2018-04-24 15:19:33,200 INFO     image type:   <class 'list'>
+2018-04-24 15:19:33,201 INFO     image 1986 Anger
+2018-04-24 15:19:33,573 INFO     -------------------------------
+2018-04-24 15:19:33,574 INFO     ./cohn-kanade-images\S114\001\*.png
+2018-04-24 15:19:33,575 INFO     amount of image added 6
+2018-04-24 15:19:33,575 INFO     image type:   <class 'list'>
+2018-04-24 15:19:33,575 INFO     image 1995 Surprise
+2018-04-24 15:19:34,084 INFO     -------------------------------
+2018-04-24 15:19:34,085 INFO     ./cohn-kanade-images\S114\006\*.png
+2018-04-24 15:19:34,085 INFO     amount of image added 8
+2018-04-24 15:19:34,086 INFO     image type:   <class 'list'>
+2018-04-24 15:19:34,086 INFO     image 2006 Happy
+2018-04-24 15:19:35,580 INFO     80subjects loaded
+2018-04-24 15:19:36,582 INFO     Maximum memory usage: [740.5625, 740.5625, 740.5625, 740.5625, 740.5625]
+2018-04-24 15:19:36,583 INFO     -------------------------------
+2018-04-24 15:19:36,584 INFO     Maximum memory usage: [740.5625, 740.5625, 740.5625, 740.5625, 740.5625]
+2018-04-24 15:19:36,584 INFO     amount of image added 3
+2018-04-24 15:19:36,585 INFO     image type:   <class 'list'>
+2018-04-24 15:19:36,585 INFO     image 2012 Surprise
+2018-04-24 15:19:37,533 INFO     80subjects loaded
+2018-04-24 15:19:38,535 INFO     Maximum memory usage: [744.95703125, 744.95703125, 744.95703125, 744.95703125, 744.95703125]
+2018-04-24 15:19:38,536 INFO     -------------------------------
+2018-04-24 15:19:38,536 INFO     Maximum memory usage: [744.95703125, 744.95703125, 744.95703125, 744.95703125, 744.95703125]
+2018-04-24 15:19:38,537 INFO     amount of image added 6
+2018-04-24 15:19:38,537 INFO     image type:   <class 'list'>
+2018-04-24 15:19:38,537 INFO     image 2021 Saddness
+2018-04-24 15:19:39,426 INFO     80subjects loaded
+2018-04-24 15:19:40,446 INFO     Maximum memory usage: [747.7578125, 747.76171875, 747.76171875, 747.76171875, 747.76171875]
+2018-04-24 15:19:40,447 INFO     -------------------------------
+2018-04-24 15:19:40,447 INFO     Maximum memory usage: [747.7578125, 747.76171875, 747.76171875, 747.76171875, 747.76171875]
+2018-04-24 15:19:40,448 INFO     amount of image added 6
+2018-04-24 15:19:40,448 INFO     image type:   <class 'list'>
+2018-04-24 15:19:40,448 INFO     image 2030 Happy
+2018-04-24 15:19:41,020 INFO     -------------------------------
+2018-04-24 15:19:41,021 INFO     ./cohn-kanade-images\S116\001\*.png
+2018-04-24 15:19:41,021 INFO     amount of image added 5
+2018-04-24 15:19:41,021 INFO     image type:   <class 'list'>
+2018-04-24 15:19:41,022 INFO     image 2038 Surprise
+2018-04-24 15:19:41,254 INFO     -------------------------------
+2018-04-24 15:19:41,255 INFO     ./cohn-kanade-images\S116\006\*.png
+2018-04-24 15:19:41,255 INFO     amount of image added 2
+2018-04-24 15:19:41,255 INFO     image type:   <class 'list'>
+2018-04-24 15:19:41,256 INFO     image 2043 Disgust
+2018-04-24 15:19:41,633 INFO     -------------------------------
+2018-04-24 15:19:41,634 INFO     ./cohn-kanade-images\S116\007\*.png
+2018-04-24 15:19:41,635 INFO     amount of image added 6
+2018-04-24 15:19:41,635 INFO     image type:   <class 'list'>
+2018-04-24 15:19:41,636 INFO     image 2052 Happy
+2018-04-24 15:19:42,175 INFO     -------------------------------
+2018-04-24 15:19:42,175 INFO     ./cohn-kanade-images\S117\001\*.png
+2018-04-24 15:19:42,175 INFO     amount of image added 5
+2018-04-24 15:19:42,176 INFO     image type:   <class 'list'>
+2018-04-24 15:19:42,176 INFO     image 2060 Surprise
+2018-04-24 15:19:42,649 INFO     -------------------------------
+2018-04-24 15:19:42,650 INFO     ./cohn-kanade-images\S117\003\*.png
+2018-04-24 15:19:42,650 INFO     amount of image added 5
+2018-04-24 15:19:42,650 INFO     image type:   <class 'list'>
+2018-04-24 15:19:42,650 INFO     image 2068 Fear 
+2018-04-24 15:19:42,902 INFO     -------------------------------
+2018-04-24 15:19:42,903 INFO     ./cohn-kanade-images\S117\006\*.png
+2018-04-24 15:19:42,903 INFO     amount of image added 3
+2018-04-24 15:19:42,903 INFO     image type:   <class 'list'>
+2018-04-24 15:19:42,904 INFO     image 2074 Anger
+2018-04-24 15:19:43,259 INFO     -------------------------------
+2018-04-24 15:19:43,260 INFO     ./cohn-kanade-images\S119\001\*.png
+2018-04-24 15:19:43,260 INFO     amount of image added 4
+2018-04-24 15:19:43,261 INFO     image type:   <class 'list'>
+2018-04-24 15:19:43,262 INFO     image 2081 Surprise
+2018-04-24 15:19:43,697 INFO     -------------------------------
+2018-04-24 15:19:43,698 INFO     ./cohn-kanade-images\S119\003\*.png
+2018-04-24 15:19:43,699 INFO     amount of image added 8
+2018-04-24 15:19:43,700 INFO     image type:   <class 'list'>
+2018-04-24 15:19:43,700 INFO     image 2092 Fear 
+2018-04-24 15:19:44,021 INFO     -------------------------------
+2018-04-24 15:19:44,021 INFO     ./cohn-kanade-images\S119\008\*.png
+2018-04-24 15:19:44,022 INFO     amount of image added 6
+2018-04-24 15:19:44,022 INFO     image type:   <class 'list'>
+2018-04-24 15:19:44,023 INFO     image 2101 Anger
+2018-04-24 15:19:44,314 INFO     -------------------------------
+2018-04-24 15:19:44,314 INFO     ./cohn-kanade-images\S122\001\*.png
+2018-04-24 15:19:44,314 INFO     amount of image added 4
+2018-04-24 15:19:44,315 INFO     image type:   <class 'list'>
+2018-04-24 15:19:44,315 INFO     image 2108 Surprise
+2018-04-24 15:19:44,712 INFO     -------------------------------
+2018-04-24 15:19:44,736 INFO     ./cohn-kanade-images\S124\001\*.png
+2018-04-24 15:19:44,736 INFO     amount of image added 5
+2018-04-24 15:19:44,737 INFO     image type:   <class 'list'>
+2018-04-24 15:19:44,737 INFO     image 2116 Surprise
+2018-04-24 15:19:44,997 INFO     -------------------------------
+2018-04-24 15:19:44,997 INFO     ./cohn-kanade-images\S124\003\*.png
+2018-04-24 15:19:44,998 INFO     amount of image added 4
+2018-04-24 15:19:44,999 INFO     image type:   <class 'list'>
+2018-04-24 15:19:44,999 INFO     image 2123 Fear 
+2018-04-24 15:19:45,397 INFO     -------------------------------
+2018-04-24 15:19:45,398 INFO     ./cohn-kanade-images\S124\006\*.png
+2018-04-24 15:19:45,398 INFO     amount of image added 4
+2018-04-24 15:19:45,398 INFO     image type:   <class 'list'>
+2018-04-24 15:19:45,399 INFO     image 2130 Disgust
+2018-04-24 15:19:46,000 INFO     -------------------------------
+2018-04-24 15:19:46,001 INFO     ./cohn-kanade-images\S124\007\*.png
+2018-04-24 15:19:46,002 INFO     amount of image added 8
+2018-04-24 15:19:46,002 INFO     image type:   <class 'list'>
+2018-04-24 15:19:46,003 INFO     image 2141 Happy
+2018-04-24 15:19:46,375 INFO     -------------------------------
+2018-04-24 15:19:46,376 INFO     ./cohn-kanade-images\S125\001\*.png
+2018-04-24 15:19:46,377 INFO     amount of image added 5
+2018-04-24 15:19:46,378 INFO     image type:   <class 'list'>
+2018-04-24 15:19:46,378 INFO     image 2149 Saddness
+2018-04-24 15:19:46,735 INFO     -------------------------------
+2018-04-24 15:19:46,736 INFO     ./cohn-kanade-images\S125\005\*.png
+2018-04-24 15:19:46,737 INFO     amount of image added 4
+2018-04-24 15:19:46,737 INFO     image type:   <class 'list'>
+2018-04-24 15:19:46,737 INFO     image 2156 Happy
+2018-04-24 15:19:47,142 INFO     -------------------------------
+2018-04-24 15:19:47,142 INFO     ./cohn-kanade-images\S125\006\*.png
+2018-04-24 15:19:47,143 INFO     amount of image added 7
+2018-04-24 15:19:47,143 INFO     image type:   <class 'list'>
+2018-04-24 15:19:47,144 INFO     image 2166 Fear 
+2018-04-24 15:19:47,381 INFO     -------------------------------
+2018-04-24 15:19:47,382 INFO     ./cohn-kanade-images\S125\007\*.png
+2018-04-24 15:19:47,382 INFO     amount of image added 3
+2018-04-24 15:19:47,382 INFO     image type:   <class 'list'>
+2018-04-24 15:19:47,383 INFO     image 2172 Surprise
+2018-04-24 15:19:47,627 INFO     -------------------------------
+2018-04-24 15:19:47,628 INFO     ./cohn-kanade-images\S125\008\*.png
+2018-04-24 15:19:47,628 INFO     amount of image added 3
+2018-04-24 15:19:47,629 INFO     image type:   <class 'list'>
+2018-04-24 15:19:47,629 INFO     image 2178 Disgust
+2018-04-24 15:19:47,873 INFO     -------------------------------
+2018-04-24 15:19:47,874 INFO     ./cohn-kanade-images\S126\004\*.png
+2018-04-24 15:19:47,874 INFO     amount of image added 4
+2018-04-24 15:19:47,874 INFO     image type:   <class 'list'>
+2018-04-24 15:19:47,875 INFO     image 2185 Surprise
+2018-04-24 15:19:48,302 INFO     -------------------------------
+2018-04-24 15:19:48,302 INFO     ./cohn-kanade-images\S126\008\*.png
+2018-04-24 15:19:48,303 INFO     amount of image added 10
+2018-04-24 15:19:48,303 INFO     image type:   <class 'list'>
+2018-04-24 15:19:48,303 INFO     image 2198 Anger
+2018-04-24 15:19:48,855 INFO     -------------------------------
+2018-04-24 15:19:48,855 INFO     ./cohn-kanade-images\S127\001\*.png
+2018-04-24 15:19:48,856 INFO     amount of image added 6
+2018-04-24 15:19:48,856 INFO     image type:   <class 'list'>
+2018-04-24 15:19:48,856 INFO     image 2207 Surprise
+2018-04-24 15:19:49,423 INFO     -------------------------------
+2018-04-24 15:19:49,424 INFO     ./cohn-kanade-images\S127\004\*.png
+2018-04-24 15:19:49,424 INFO     amount of image added 5
+2018-04-24 15:19:49,425 INFO     image type:   <class 'list'>
+2018-04-24 15:19:49,425 INFO     image 2215 Happy
+2018-04-24 15:19:49,848 INFO     -------------------------------
+2018-04-24 15:19:49,849 INFO     ./cohn-kanade-images\S127\010\*.png
+2018-04-24 15:19:49,849 INFO     amount of image added 6
+2018-04-24 15:19:49,850 INFO     image type:   <class 'list'>
+2018-04-24 15:19:49,850 INFO     image 2224 Anger
+2018-04-24 15:19:50,072 INFO     -------------------------------
+2018-04-24 15:19:50,072 INFO     ./cohn-kanade-images\S128\004\*.png
+2018-04-24 15:19:50,073 INFO     amount of image added 4
+2018-04-24 15:19:50,073 INFO     image type:   <class 'list'>
+2018-04-24 15:19:50,073 INFO     image 2231 Disgust
+2018-04-24 15:19:50,540 INFO     -------------------------------
+2018-04-24 15:19:50,541 INFO     ./cohn-kanade-images\S128\011\*.png
+2018-04-24 15:19:50,541 INFO     amount of image added 5
+2018-04-24 15:19:50,542 INFO     image type:   <class 'list'>
+2018-04-24 15:19:50,542 INFO     image 2239 Happy
+2018-04-24 15:19:50,932 INFO     -------------------------------
+2018-04-24 15:19:50,933 INFO     ./cohn-kanade-images\S129\002\*.png
+2018-04-24 15:19:50,933 INFO     amount of image added 4
+2018-04-24 15:19:50,934 INFO     image type:   <class 'list'>
+2018-04-24 15:19:50,934 INFO     image 2246 Surprise
+2018-04-24 15:19:51,197 INFO     -------------------------------
+2018-04-24 15:19:51,198 INFO     ./cohn-kanade-images\S129\006\*.png
+2018-04-24 15:19:51,198 INFO     amount of image added 3
+2018-04-24 15:19:51,199 INFO     image type:   <class 'list'>
+2018-04-24 15:19:51,199 INFO     image 2252 Anger
+2018-04-24 15:19:51,512 INFO     -------------------------------
+2018-04-24 15:19:51,512 INFO     ./cohn-kanade-images\S129\011\*.png
+2018-04-24 15:19:51,513 INFO     amount of image added 6
+2018-04-24 15:19:51,513 INFO     image type:   <class 'list'>
+2018-04-24 15:19:51,513 INFO     image 2261 Disgust
+2018-04-24 15:19:51,702 INFO     -------------------------------
+2018-04-24 15:19:51,703 INFO     ./cohn-kanade-images\S129\012\*.png
+2018-04-24 15:19:51,704 INFO     amount of image added 4
+2018-04-24 15:19:51,704 INFO     image type:   <class 'list'>
+2018-04-24 15:19:51,704 INFO     image 2268 Happy
+2018-04-24 15:19:52,051 INFO     -------------------------------
+2018-04-24 15:19:52,052 INFO     ./cohn-kanade-images\S130\001\*.png
+2018-04-24 15:19:52,052 INFO     amount of image added 6
+2018-04-24 15:19:52,052 INFO     image type:   <class 'list'>
+2018-04-24 15:19:52,053 INFO     image 2277 Surprise
+2018-04-24 15:19:52,483 INFO     -------------------------------
+2018-04-24 15:19:52,483 INFO     ./cohn-kanade-images\S130\007\*.png
+2018-04-24 15:19:52,484 INFO     amount of image added 7
+2018-04-24 15:19:52,484 INFO     image type:   <class 'list'>
+2018-04-24 15:19:52,484 INFO     image 2287 Anger
+2018-04-24 15:19:52,744 INFO     -------------------------------
+2018-04-24 15:19:52,744 INFO     ./cohn-kanade-images\S130\009\*.png
+2018-04-24 15:19:52,745 INFO     amount of image added 6
+2018-04-24 15:19:52,745 INFO     image type:   <class 'list'>
+2018-04-24 15:19:52,746 INFO     image 2296 Saddness
+2018-04-24 15:19:52,964 INFO     -------------------------------
+2018-04-24 15:19:52,965 INFO     ./cohn-kanade-images\S130\012\*.png
+2018-04-24 15:19:52,966 INFO     amount of image added 4
+2018-04-24 15:19:52,966 INFO     image type:   <class 'list'>
+2018-04-24 15:19:52,966 INFO     image 2303 Disgust
+2018-04-24 15:19:53,254 INFO     -------------------------------
+2018-04-24 15:19:53,255 INFO     ./cohn-kanade-images\S130\013\*.png
+2018-04-24 15:19:53,255 INFO     amount of image added 5
+2018-04-24 15:19:53,255 INFO     image type:   <class 'list'>
+2018-04-24 15:19:53,255 INFO     image 2311 Happy
+2018-04-24 15:19:53,566 INFO     -------------------------------
+2018-04-24 15:19:53,566 INFO     ./cohn-kanade-images\S131\001\*.png
+2018-04-24 15:19:53,567 INFO     amount of image added 5
+2018-04-24 15:19:53,567 INFO     image type:   <class 'list'>
+2018-04-24 15:19:53,567 INFO     image 2319 Surprise
+2018-04-24 15:19:53,971 INFO     -------------------------------
+2018-04-24 15:19:53,972 INFO     ./cohn-kanade-images\S131\003\*.png
+2018-04-24 15:19:53,972 INFO     amount of image added 8
+2018-04-24 15:19:53,972 INFO     image type:   <class 'list'>
+2018-04-24 15:19:53,973 INFO     image 2330 Saddness
+2018-04-24 15:19:54,494 INFO     -------------------------------
+2018-04-24 15:19:54,495 INFO     ./cohn-kanade-images\S131\006\*.png
+2018-04-24 15:19:54,495 INFO     amount of image added 7
+2018-04-24 15:19:54,495 INFO     image type:   <class 'list'>
+2018-04-24 15:19:54,496 INFO     image 2340 Happy
+2018-04-24 15:19:54,934 INFO     -------------------------------
+2018-04-24 15:19:54,935 INFO     ./cohn-kanade-images\S131\010\*.png
+2018-04-24 15:19:54,935 INFO     amount of image added 6
+2018-04-24 15:19:54,936 INFO     image type:   <class 'list'>
+2018-04-24 15:19:54,937 INFO     image 2349 Disgust
+2018-04-24 15:19:55,331 INFO     -------------------------------
+2018-04-24 15:19:55,332 INFO     ./cohn-kanade-images\S132\002\*.png
+2018-04-24 15:19:55,332 INFO     amount of image added 6
+2018-04-24 15:19:55,333 INFO     image type:   <class 'list'>
+2018-04-24 15:19:55,333 INFO     image 2358 Saddness
+2018-04-24 15:19:55,716 INFO     -------------------------------
+2018-04-24 15:19:55,717 INFO     ./cohn-kanade-images\S132\003\*.png
+2018-04-24 15:19:55,718 INFO     amount of image added 8
+2018-04-24 15:19:55,718 INFO     image type:   <class 'list'>
+2018-04-24 15:19:55,718 INFO     image 2369 Fear 
+2018-04-24 15:19:56,209 INFO     -------------------------------
+2018-04-24 15:19:56,210 INFO     ./cohn-kanade-images\S132\005\*.png
+2018-04-24 15:19:56,211 INFO     amount of image added 5
+2018-04-24 15:19:56,211 INFO     image type:   <class 'list'>
+2018-04-24 15:19:56,212 INFO     image 2377 Disgust
+2018-04-24 15:19:56,625 INFO     -------------------------------
+2018-04-24 15:19:56,625 INFO     ./cohn-kanade-images\S132\006\*.png
+2018-04-24 15:19:56,625 INFO     amount of image added 8
+2018-04-24 15:19:56,626 INFO     image type:   <class 'list'>
+2018-04-24 15:19:56,626 INFO     image 2388 Happy
+2018-04-24 15:19:56,847 INFO     -------------------------------
+2018-04-24 15:19:56,847 INFO     ./cohn-kanade-images\S132\008\*.png
+2018-04-24 15:19:56,848 INFO     amount of image added 3
+2018-04-24 15:19:56,848 INFO     image type:   <class 'list'>
+2018-04-24 15:19:56,848 INFO     image 2394 Surprise
+2018-04-24 15:19:57,793 INFO     -------------------------------
+2018-04-24 15:19:57,793 INFO     ./cohn-kanade-images\S133\003\*.png
+2018-04-24 15:19:57,794 INFO     amount of image added 16
+2018-04-24 15:19:57,794 INFO     image type:   <class 'list'>
+2018-04-24 15:19:57,794 INFO     image 2413 Anger
+2018-04-24 15:19:58,031 INFO     -------------------------------
+2018-04-24 15:19:58,032 INFO     ./cohn-kanade-images\S133\009\*.png
+2018-04-24 15:19:58,032 INFO     amount of image added 2
+2018-04-24 15:19:58,032 INFO     image type:   <class 'list'>
+2018-04-24 15:19:58,032 INFO     image 2418 Surprise
+2018-04-24 15:19:58,265 INFO     -------------------------------
+2018-04-24 15:19:58,265 INFO     ./cohn-kanade-images\S133\010\*.png
+2018-04-24 15:19:58,265 INFO     amount of image added 5
+2018-04-24 15:19:58,266 INFO     image type:   <class 'list'>
+2018-04-24 15:19:58,266 INFO     image 2426 Happy
+2018-04-24 15:19:58,589 INFO     -------------------------------
+2018-04-24 15:19:58,590 INFO     ./cohn-kanade-images\S134\003\*.png
+2018-04-24 15:19:58,590 INFO     amount of image added 4
+2018-04-24 15:19:58,591 INFO     image type:   <class 'list'>
+2018-04-24 15:19:58,591 INFO     image 2433 Anger
+2018-04-24 15:19:58,932 INFO     -------------------------------
+2018-04-24 15:19:58,933 INFO     ./cohn-kanade-images\S134\004\*.png
+2018-04-24 15:19:58,933 INFO     amount of image added 5
+2018-04-24 15:19:58,933 INFO     image type:   <class 'list'>
+2018-04-24 15:19:58,934 INFO     image 2441 Happy
+2018-04-24 15:19:59,205 INFO     -------------------------------
+2018-04-24 15:19:59,206 INFO     ./cohn-kanade-images\S134\008\*.png
+2018-04-24 15:19:59,206 INFO     amount of image added 4
+2018-04-24 15:19:59,207 INFO     image type:   <class 'list'>
+2018-04-24 15:19:59,207 INFO     image 2448 Disgust
+2018-04-24 15:19:59,754 INFO     -------------------------------
+2018-04-24 15:19:59,755 INFO     ./cohn-kanade-images\S135\001\*.png
+2018-04-24 15:19:59,755 INFO     amount of image added 13
+2018-04-24 15:19:59,756 INFO     image type:   <class 'list'>
+2018-04-24 15:19:59,756 INFO     image 2464 Surprise
+2018-04-24 15:20:00,182 INFO     -------------------------------
+2018-04-24 15:20:00,183 INFO     ./cohn-kanade-images\S135\012\*.png
+2018-04-24 15:20:00,184 INFO     amount of image added 7
+2018-04-24 15:20:00,184 INFO     image type:   <class 'list'>
+2018-04-24 15:20:00,185 INFO     image 2474 Happy
+2018-04-24 15:20:00,602 INFO     -------------------------------
+2018-04-24 15:20:00,602 INFO     ./cohn-kanade-images\S136\001\*.png
+2018-04-24 15:20:00,603 INFO     amount of image added 6
+2018-04-24 15:20:00,603 INFO     image type:   <class 'list'>
+2018-04-24 15:20:00,603 INFO     image 2483 Surprise
+2018-04-24 15:20:00,947 INFO     -------------------------------
+2018-04-24 15:20:00,948 INFO     ./cohn-kanade-images\S136\003\*.png
+2018-04-24 15:20:00,949 INFO     amount of image added 5
+2018-04-24 15:20:00,950 INFO     image type:   <class 'list'>
+2018-04-24 15:20:00,951 INFO     image 2491 Saddness
+2018-04-24 15:20:01,187 INFO     -------------------------------
+2018-04-24 15:20:01,187 INFO     ./cohn-kanade-images\S136\005\*.png
+2018-04-24 15:20:01,188 INFO     amount of image added 3
+2018-04-24 15:20:01,188 INFO     image type:   <class 'list'>
+2018-04-24 15:20:01,188 INFO     image 2497 Anger
+2018-04-24 15:20:01,605 INFO     -------------------------------
+2018-04-24 15:20:01,605 INFO     ./cohn-kanade-images\S136\006\*.png
+2018-04-24 15:20:01,606 INFO     amount of image added 7
+2018-04-24 15:20:01,606 INFO     image type:   <class 'list'>
+2018-04-24 15:20:01,606 INFO     image 2507 Happy
+2018-04-24 15:20:02,204 INFO     -------------------------------
+2018-04-24 15:20:02,205 INFO     ./cohn-kanade-images\S137\001\*.png
+2018-04-24 15:20:02,206 INFO     amount of image added 5
+2018-04-24 15:20:02,207 INFO     image type:   <class 'list'>
+2018-04-24 15:20:02,207 INFO     image 2515 Surprise
+2018-04-24 15:20:03,779 INFO     -------------------------------
+2018-04-24 15:20:03,795 INFO     ./cohn-kanade-images\S137\005\*.png
+2018-04-24 15:20:03,796 INFO     amount of image added 9
+2018-04-24 15:20:03,797 INFO     image type:   <class 'list'>
+2018-04-24 15:20:03,797 INFO     image 2527 Saddness
+2018-04-24 15:20:04,227 INFO     -------------------------------
+2018-04-24 15:20:04,227 INFO     ./cohn-kanade-images\S137\011\*.png
+2018-04-24 15:20:04,228 INFO     amount of image added 7
+2018-04-24 15:20:04,228 INFO     image type:   <class 'list'>
+2018-04-24 15:20:04,229 INFO     image 2537 Happy
+2018-04-24 15:20:04,530 INFO     -------------------------------
+2018-04-24 15:20:04,531 INFO     ./cohn-kanade-images\S138\001\*.png
+2018-04-24 15:20:04,531 INFO     amount of image added 4
+2018-04-24 15:20:04,532 INFO     image type:   <class 'list'>
+2018-04-24 15:20:04,532 INFO     image 2544 Fear 
+2018-04-24 15:20:05,000 INFO     -------------------------------
+2018-04-24 15:20:05,001 INFO     ./cohn-kanade-images\S138\004\*.png
+2018-04-24 15:20:05,002 INFO     amount of image added 4
+2018-04-24 15:20:05,002 INFO     image type:   <class 'list'>
+2018-04-24 15:20:05,003 INFO     image 2551 Surprise
+2018-04-24 15:20:06,627 INFO     -------------------------------
+2018-04-24 15:20:06,628 INFO     ./cohn-kanade-images\S138\005\*.png
+2018-04-24 15:20:06,628 INFO     amount of image added 5
+2018-04-24 15:20:06,628 INFO     image type:   <class 'list'>
+2018-04-24 15:20:06,628 INFO     image 2559 Happy
+2018-04-24 15:20:07,284 INFO     -------------------------------
+2018-04-24 15:20:07,284 INFO     ./cohn-kanade-images\S138\007\*.png
+2018-04-24 15:20:07,284 INFO     amount of image added 4
+2018-04-24 15:20:07,285 INFO     image type:   <class 'list'>
+2018-04-24 15:20:07,285 INFO     image 2566 Saddness
+2018-04-24 15:20:07,962 INFO     -------------------------------
+2018-04-24 15:20:07,963 INFO     ./cohn-kanade-images\S138\008\*.png
+2018-04-24 15:20:07,963 INFO     amount of image added 3
+2018-04-24 15:20:07,964 INFO     image type:   <class 'list'>
+2018-04-24 15:20:07,964 INFO     image 2566 Surprise
+2018-04-24 15:20:09,355 INFO     100subjects loaded
+2018-04-24 15:20:10,359 INFO     Maximum memory usage: [920.765625, 920.765625, 920.765625, 920.765625, 920.765625]
+2018-04-24 15:20:10,359 INFO     -------------------------------
+2018-04-24 15:20:10,360 INFO     Maximum memory usage: [920.765625, 920.765625, 920.765625, 920.765625, 920.765625]
+2018-04-24 15:20:10,360 INFO     amount of image added 4
+2018-04-24 15:20:10,360 INFO     image type:   <class 'list'>
+2018-04-24 15:20:10,360 INFO     image 2566 Surprise
+2018-04-24 15:20:10,756 INFO     -------------------------------
+2018-04-24 15:20:10,757 INFO     ./cohn-kanade-images\S147\002\*.png
+2018-04-24 15:20:10,758 INFO     amount of image added 4
+2018-04-24 15:20:10,758 INFO     image type:   <class 'list'>
+2018-04-24 15:20:10,758 INFO     image 2566 Surprise
+2018-04-24 15:20:16,748 INFO     -------------------------------
+2018-04-24 15:20:16,749 INFO     ./cohn-kanade-images\S148\002\*.png
+2018-04-24 15:20:16,750 INFO     amount of image added 5
+2018-04-24 15:20:16,750 INFO     image type:   <class 'list'>
+2018-04-24 15:20:16,751 INFO     image 2566 Surprise
+2018-04-24 15:20:35,604 INFO     -------------------------------
+2018-04-24 15:20:35,604 INFO     ./cohn-kanade-images\S149\002\*.png
+2018-04-24 15:20:35,605 INFO     amount of image added 4
+2018-04-24 15:20:35,605 INFO     image type:   <class 'list'>
+2018-04-24 15:20:35,605 INFO     image 2566 Surprise
+2018-04-24 15:20:37,141 INFO     -------------------------------
+2018-04-24 15:20:37,142 INFO     ./cohn-kanade-images\S151\002\*.png
+2018-04-24 15:20:37,142 INFO     amount of image added 10
+2018-04-24 15:20:37,143 INFO     image type:   <class 'list'>
+2018-04-24 15:20:37,143 INFO     image 2566 Surprise
+2018-04-24 15:20:38,219 INFO     -------------------------------
+2018-04-24 15:20:38,220 INFO     ./cohn-kanade-images\S154\002\*.png
+2018-04-24 15:20:38,220 INFO     amount of image added 4
+2018-04-24 15:20:38,221 INFO     image type:   <class 'list'>
+2018-04-24 15:20:38,221 INFO     image 2566 Surprise
+2018-04-24 15:20:38,786 INFO     -------------------------------
+2018-04-24 15:20:38,786 INFO     ./cohn-kanade-images\S155\002\*.png
+2018-04-24 15:20:38,786 INFO     amount of image added 4
+2018-04-24 15:20:38,787 INFO     image type:   <class 'list'>
+2018-04-24 15:20:38,787 INFO     image 2566 Surprise
+2018-04-24 15:20:39,917 INFO     -------------------------------
+2018-04-24 15:20:39,918 INFO     ./cohn-kanade-images\S156\002\*.png
+2018-04-24 15:20:39,918 INFO     amount of image added 7
+2018-04-24 15:20:39,919 INFO     image type:   <class 'list'>
+2018-04-24 15:20:39,919 INFO     image 2566 Surprise
+2018-04-24 15:20:40,990 INFO     -------------------------------
+2018-04-24 15:20:40,991 INFO     ./cohn-kanade-images\S157\002\*.png
+2018-04-24 15:20:40,991 INFO     amount of image added 4
+2018-04-24 15:20:40,992 INFO     image type:   <class 'list'>
+2018-04-24 15:20:40,992 INFO     image 2566 Surprise
+2018-04-24 15:20:41,550 INFO     -------------------------------
+2018-04-24 15:20:41,550 INFO     ./cohn-kanade-images\S158\002\*.png
+2018-04-24 15:20:41,551 INFO     amount of image added 4
+2018-04-24 15:20:41,551 INFO     image type:   <class 'list'>
+2018-04-24 15:20:41,552 INFO     image 2566 Surprise
+2018-04-24 15:20:41,804 INFO     -------------------------------
+2018-04-24 15:20:41,805 INFO     ./cohn-kanade-images\S160\006\*.png
+2018-04-24 15:20:41,805 INFO     amount of image added 3
+2018-04-24 15:20:41,805 INFO     image type:   <class 'list'>
+2018-04-24 15:20:41,806 INFO     image 2566 Surprise
+2018-04-24 15:20:43,122 INFO     -------------------------------
+2018-04-24 15:20:43,123 INFO     ./cohn-kanade-images\S501\001\*.png
+2018-04-24 15:20:43,123 INFO     amount of image added 22
+2018-04-24 15:20:43,123 INFO     image type:   <class 'list'>
+2018-04-24 15:20:43,124 INFO     image 2591 Anger
+2018-04-24 15:20:44,228 INFO     -------------------------------
+2018-04-24 15:20:44,228 INFO     ./cohn-kanade-images\S501\004\*.png
+2018-04-24 15:20:44,229 INFO     amount of image added 18
+2018-04-24 15:20:44,229 INFO     image type:   <class 'list'>
+2018-04-24 15:20:44,229 INFO     image 2612 Fear 
+2018-04-24 15:20:46,313 INFO     -------------------------------
+2018-04-24 15:20:46,313 INFO     ./cohn-kanade-images\S501\006\*.png
+2018-04-24 15:20:46,314 INFO     amount of image added 14
+2018-04-24 15:20:46,314 INFO     image type:   <class 'list'>
+2018-04-24 15:20:46,315 INFO     image 2629 Saddness
+2018-04-24 15:20:46,830 INFO     -------------------------------
+2018-04-24 15:20:46,831 INFO     ./cohn-kanade-images\S502\001\*.png
+2018-04-24 15:20:46,831 INFO     amount of image added 5
+2018-04-24 15:20:46,831 INFO     image type:   <class 'list'>
+2018-04-24 15:20:46,832 INFO     image 2637 Anger
+2018-04-24 15:20:47,097 INFO     -------------------------------
+2018-04-24 15:20:47,097 INFO     ./cohn-kanade-images\S502\002\*.png
+2018-04-24 15:20:47,097 INFO     amount of image added 3
+2018-04-24 15:20:47,099 INFO     image type:   <class 'list'>
+2018-04-24 15:20:47,099 INFO     image 2637 Surprise
+2018-04-24 15:20:48,316 INFO     -------------------------------
+2018-04-24 15:20:48,316 INFO     ./cohn-kanade-images\S502\004\*.png
+2018-04-24 15:20:48,316 INFO     amount of image added 17
+2018-04-24 15:20:48,317 INFO     image type:   <class 'list'>
+2018-04-24 15:20:48,317 INFO     image 2657 Fear 
+2018-04-24 15:20:49,771 INFO     -------------------------------
+2018-04-24 15:20:49,772 INFO     ./cohn-kanade-images\S503\001\*.png
+2018-04-24 15:20:49,790 INFO     amount of image added 23
+2018-04-24 15:20:49,790 INFO     image type:   <class 'list'>
+2018-04-24 15:20:49,790 INFO     image 2683 Anger
+2018-04-24 15:20:50,196 INFO     -------------------------------
+2018-04-24 15:20:50,197 INFO     ./cohn-kanade-images\S503\002\*.png
+2018-04-24 15:20:50,198 INFO     amount of image added 3
+2018-04-24 15:20:50,198 INFO     image type:   <class 'list'>
+2018-04-24 15:20:50,199 INFO     image 2683 Surprise
+2018-04-24 15:20:50,897 INFO     -------------------------------
+2018-04-24 15:20:50,897 INFO     ./cohn-kanade-images\S503\006\*.png
+2018-04-24 15:20:50,897 INFO     amount of image added 7
+2018-04-24 15:20:50,897 INFO     image type:   <class 'list'>
+2018-04-24 15:20:50,898 INFO     image 2693 Saddness
+2018-04-24 15:20:51,488 INFO     -------------------------------
+2018-04-24 15:20:51,488 INFO     ./cohn-kanade-images\S504\001\*.png
+2018-04-24 15:20:51,489 INFO     amount of image added 7
+2018-04-24 15:20:51,489 INFO     image type:   <class 'list'>
+2018-04-24 15:20:51,490 INFO     image 2703 Anger
+2018-04-24 15:20:51,759 INFO     -------------------------------
+2018-04-24 15:20:51,760 INFO     ./cohn-kanade-images\S504\002\*.png
+2018-04-24 15:20:51,760 INFO     amount of image added 3
+2018-04-24 15:20:51,761 INFO     image type:   <class 'list'>
+2018-04-24 15:20:51,761 INFO     image 2703 Surprise
+2018-04-24 15:20:52,446 INFO     -------------------------------
+2018-04-24 15:20:52,447 INFO     ./cohn-kanade-images\S504\004\*.png
+2018-04-24 15:20:52,448 INFO     amount of image added 5
+2018-04-24 15:20:52,448 INFO     image type:   <class 'list'>
+2018-04-24 15:20:52,448 INFO     image 2711 Fear 
+2018-04-24 15:20:53,031 INFO     -------------------------------
+2018-04-24 15:20:53,032 INFO     ./cohn-kanade-images\S504\006\*.png
+2018-04-24 15:20:53,032 INFO     amount of image added 6
+2018-04-24 15:20:53,032 INFO     image type:   <class 'list'>
+2018-04-24 15:20:53,032 INFO     image 2720 Saddness
+2018-04-24 15:20:53,627 INFO     -------------------------------
+2018-04-24 15:20:53,628 INFO     ./cohn-kanade-images\S505\002\*.png
+2018-04-24 15:20:53,628 INFO     amount of image added 7
+2018-04-24 15:20:53,628 INFO     image type:   <class 'list'>
+2018-04-24 15:20:53,628 INFO     image 2720 Surprise
+2018-04-24 15:20:54,122 INFO     -------------------------------
+2018-04-24 15:20:54,122 INFO     ./cohn-kanade-images\S505\006\*.png
+2018-04-24 15:20:54,122 INFO     amount of image added 6
+2018-04-24 15:20:54,123 INFO     image type:   <class 'list'>
+2018-04-24 15:20:54,123 INFO     image 2729 Saddness
+2018-04-24 15:20:55,227 INFO     -------------------------------
+2018-04-24 15:20:55,228 INFO     ./cohn-kanade-images\S506\001\*.png
+2018-04-24 15:20:55,228 INFO     amount of image added 13
+2018-04-24 15:20:55,229 INFO     image type:   <class 'list'>
+2018-04-24 15:20:55,229 INFO     image 2745 Anger
+2018-04-24 15:20:55,566 INFO     -------------------------------
+2018-04-24 15:20:55,566 INFO     ./cohn-kanade-images\S506\002\*.png
+2018-04-24 15:20:55,567 INFO     amount of image added 3
+2018-04-24 15:20:55,567 INFO     image type:   <class 'list'>
+2018-04-24 15:20:55,568 INFO     image 2745 Surprise
+2018-04-24 15:20:56,826 INFO     -------------------------------
+2018-04-24 15:20:56,826 INFO     ./cohn-kanade-images\S506\004\*.png
+2018-04-24 15:20:56,827 INFO     amount of image added 13
+2018-04-24 15:20:56,827 INFO     image type:   <class 'list'>
+2018-04-24 15:20:56,827 INFO     image 2761 Fear 
+2018-04-24 15:20:58,010 INFO     -------------------------------
+2018-04-24 15:20:58,010 INFO     ./cohn-kanade-images\S506\006\*.png
+2018-04-24 15:20:58,011 INFO     amount of image added 14
+2018-04-24 15:20:58,011 INFO     image type:   <class 'list'>
+2018-04-24 15:20:58,012 INFO     image 2778 Saddness
+2018-04-24 15:20:58,271 INFO     -------------------------------
+2018-04-24 15:20:58,271 INFO     ./cohn-kanade-images\S895\002\*.png
+2018-04-24 15:20:58,272 INFO     amount of image added 2
+2018-04-24 15:20:58,272 INFO     image type:   <class 'list'>
+2018-04-24 15:20:58,272 INFO     image 2778 Surprise
+2018-04-24 15:20:58,782 INFO     -------------------------------
+2018-04-24 15:20:58,782 INFO     ./cohn-kanade-images\S999\001\*.png
+2018-04-24 15:20:58,782 INFO     amount of image added 6
+2018-04-24 15:20:58,783 INFO     image type:   <class 'list'>
+2018-04-24 15:20:58,783 INFO     image 2787 Anger
+2018-04-24 15:20:59,762 INFO     -------------------------------
+2018-04-24 15:20:59,781 INFO     ./cohn-kanade-images\S999\003\*.png
+2018-04-24 15:20:59,781 INFO     amount of image added 18
+2018-04-24 15:20:59,782 INFO     image type:   <class 'list'>
+2018-04-24 15:20:59,782 INFO     image 2808 Fear 
+2018-04-24 15:20:59,783 INFO     --------- Overal stattistics ---------  
+2018-04-24 15:20:59,783 INFO     amount of Subjects  : 118
+2018-04-24 15:20:59,784 INFO     amount of Instances : 2808
+2018-04-24 15:20:59,801 INFO     code = 1 = Anger      340 instances: %.2f12.108262108262108
+2018-04-24 15:20:59,802 INFO     code = 2 = Neutral    981 instances: %.2f34.93589743589743
+2018-04-24 15:20:59,802 INFO     code = 3 = Disgust    291 instances: %.2f10.363247863247864
+2018-04-24 15:20:59,803 INFO     code = 4 = Fear       183 instances: %.2f6.517094017094018
+2018-04-24 15:20:59,805 INFO     code = 5 = Happy      444 instances: %.2f15.81196581196581
+2018-04-24 15:20:59,805 INFO     code = 6 = Saddness   182 instances: %.2f6.481481481481481
+2018-04-24 15:20:59,806 INFO     --------- dimensions ---------  
+2018-04-24 15:20:59,807 INFO     --------- last elements in lists ---------  
+2018-04-24 15:20:59,809 INFO     length X_data 2808
+2018-04-24 15:20:59,809 INFO     length Y_data 2808
+2018-04-24 15:20:59,809 INFO     length X_subID 2808
+2018-04-24 15:21:00,816 INFO     Maximum memory usage: [993.50390625, 993.51171875, 993.51171875, 993.51171875, 993.51171875]
+2018-04-24 15:41:37,178 INFO     hello
+2018-04-24 16:32:57,981 INFO     hello
+2018-04-24 16:37:34,786 INFO     hello
+2018-04-24 16:38:06,760 INFO     hello
+2018-04-24 16:50:53,115 INFO     hello
+2018-04-24 16:55:34,767 INFO     hello
+2018-04-25 15:51:07,501 INFO     hello
+2018-04-25 15:51:07,503 INFO     start logging to ../data_division/CKP_all_neutral/division_info
+2018-04-25 15:52:26,383 INFO     hello
+2018-04-25 15:52:26,384 INFO     start logging to ../data_division/CKP_all_neutral/division_info
